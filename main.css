@@ -1,0 +1,203 @@
+/* Reset & Basic style */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+body {
+  font-size:17px;
+  line-height:17px;
+  height:100%;
+  width: 100%;
+  font-family: "Century Gothic",Helvetica,Arial,sans-serif;
+  letter-spacing:3px;
+  text-rendering: optimizeLegibility;
+  text-transform:uppercase;
+  -webkit-transition:all 0.8s ease-out;-moz-transition:all 0.8s ease-out;-o-transition:all 0.8s ease-out;-ms-transition:all 0.8s ease-out;transition:all 0.8s ease-out;
+}
+
+#sailboat {
+  float:left;
+  margin:0 auto;
+  width:50px;
+  height: 100px;
+  z-index: 100;
+}
+
+#sailboat {
+cursor: url(cursor.png), auto;
+}
+
+p {
+  text-align: center;
+  font-size: 13px;
+  float:left;
+  font-family: "Oleo Script";
+  color: #006BB2;
+}
+
+.wrap {
+  clear:both;
+  position:relative;
+  width:800px;
+  margin-top: 0;
+  margin-left: 20%;
+  text-align:center;
+}
+
+#logo {
+  position:relative;
+  width:90px;
+  height:60px;
+  display:block;
+  margin:0 auto 80px;
+  background:url(titlelogo.png) no-repeat 50% 50%;
+}
+
+#wave {
+  position:relative;
+  width:800px;
+  height:250px;
+  display:block;
+  margin:-100px 0px 50px;
+  background:url(wave2.png) no-repeat 50% 50%;
+  z-index: -100;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 20px;
+  color:#a3c2ff;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size:15px;
+  line-height:13px;
+  position:relative;
+  margin-top:10px;
+  letter-spacing:3px;
+  color:#FFAAAA;
+}
+
+h3 {
+  font-size:13px;
+  line-height:12px;
+  position:relative;
+  margin-top:10px;
+  letter-spacing:1px;
+  color:black;
+}
+
+h4 {
+  font-size:11px;
+  line-height:11px;
+  position:relative;
+  margin-top:10px;
+  letter-spacing:1px;
+  color:#666;
+}
+
+h3 em,
+h4 em {
+  font-size:8px;
+  position:relative;
+  top:-1px;
+  color:#aaa;
+}
+
+nav {
+  position:relative;
+  display:block;
+  margin-top:90px;
+  text-align:center;
+  font-size:0px;
+}
+
+nav a {
+  position:relative;
+  display:inline-block !important;
+  *display:inline !important;*zoom:1;
+  width:40px;
+  height:40px;
+  margin:0 5px;
+  color:white;
+}
+
+.twitter {
+  background:url(twitterlogo.png) no-repeat 0 0;
+}
+
+nav a.twitter {
+  background-color:#8ae0fc;
+}
+
+nav a.twitter:hover,
+nav a.twitter:focus {
+  background-color: #7bc4dc;
+}
+
+.tumblr {
+  background: url(tumblrlogo.png) no-repeat 0 0;
+}
+
+nav a.tumblr {
+  background-color:#eb9dbb;
+}
+
+nav a.tumblr:hover,
+nav a.tumblr:focus {
+background-color: #c5839c;
+}
+
+.linkedin {
+  background: url(linkedinlogo.png) no-repeat 0 0;
+}
+
+nav a.linkedin {
+  background-color:#7891b4;
+}
+
+nav a.linkedin:hover,
+nav a.linkedin:focus {
+background-color: #687d9b;
+}
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  .wrap {
+    width:600px;
+  }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+  .wrap {
+    width:300px;
+  }
+
+  h2 {
+    font-size:10px;
+  }
+
+  h2 em {
+    display:none;
+  }
+
+  h2 strong {display:block;}
+}
