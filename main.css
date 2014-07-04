@@ -40,7 +40,7 @@ body {
 }
 
 #sailboat {
-cursor: url(cursor.png), auto;
+cursor: url(images/cursor.png), auto;
 }
 
 p {
@@ -66,7 +66,7 @@ p {
   height:60px;
   display:block;
   margin:0 auto 80px;
-  background:url(titlelogo.png) no-repeat 50% 50%;
+  background:url(images/titlelogo.png) no-repeat 50% 50%;
 }
 
 #wave {
@@ -75,7 +75,7 @@ p {
   height:250px;
   display:block;
   margin:-100px 0px 50px;
-  background:url(wave2.png) no-repeat 50% 50%;
+  background:url(images/wave.png) no-repeat 50% 50%;
   z-index: -100;
 }
 
@@ -140,7 +140,7 @@ nav a {
 }
 
 .twitter {
-  background:url(twitterlogo.png) no-repeat 0 0;
+  background:url(images/twitterlogo.png) no-repeat 0 0;
 }
 
 nav a.twitter {
@@ -153,7 +153,7 @@ nav a.twitter:focus {
 }
 
 .tumblr {
-  background: url(tumblrlogo.png) no-repeat 0 0;
+  background: url(images/tumblrlogo.png) no-repeat 0 0;
 }
 
 nav a.tumblr {
@@ -166,7 +166,7 @@ background-color: #c5839c;
 }
 
 .linkedin {
-  background: url(linkedinlogo.png) no-repeat 0 0;
+  background: url(images/linkedinlogo.png) no-repeat 0 0;
 }
 
 nav a.linkedin {
