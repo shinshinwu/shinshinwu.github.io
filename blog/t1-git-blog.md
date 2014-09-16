@@ -1,11 +1,11 @@
-# Title
-#### Subtitle
-#### Date
+# Anna's Chunky Bacon and Sweater House
+#### Blog of tracking thoughts and capturing moments
+#### Established Sept 15th, 2014
 
-Paragraph 1
+Monday, Sept 15th, 2014. Cold - writing in chunky furry sweater.
 
-Paragraph 2
+Version control helps to remedy what all human does - errors. In the case of something goes wrong, you will have the power to turn the time clock backwards and return back to the point in time the last working version exists. Also it greatly helps when you are working on a project with others and you can easily identify the changes others have made. Big note to self when writing codes: TYPO KILLS.
 
-Paragraph 3
+Git is a version control tool that it basically keeps an eye for you on your working folder. It taps on your shoulder and tells you "Hey, you have changed this files, do you want to save your changes?" And with combination with tools such as Github, BitBucket and Beanstalk, you can share your codes with others and/or have remote access to your codes.
 
-Add as many paragraphs as you want!!!
+Why is Github awesome? It is free (for the most part), lets you to collaborate with others easily and they have awesome Octocat as logo! (can someone please explain to me why they are the github logo, there must be some background joke here).
