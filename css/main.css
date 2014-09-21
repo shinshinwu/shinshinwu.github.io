@@ -43,7 +43,7 @@ p {
   text-align: center;
   font-size: 13px;
   float:left;
-  font-family: "Oleo Script";
+  font-family: "Oleo Script", sans-serif;
   color: #006BB2;
 }
 
@@ -129,7 +129,35 @@ h4 em {
   color:#aaa;
 }
 
-nav {
+nav.topbar {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+
+nav.topbar li {
+  float: left;
+  color: black;
+  padding: 5px;
+  font-size: 12px;
+  display: inline;
+}
+
+nav.topbar a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+nav.topbar a:hover a:active {
+  color: black;
+  text-decoration: underline;
+}
+
+nav.links {
   position:relative;
   display:block;
   margin-top:20px;
@@ -137,7 +165,7 @@ nav {
   font-size:0px;
 }
 
-nav a {
+nav.links a {
   position:relative;
   display:inline-block !important;
   *display:inline !important;*zoom:1;
@@ -151,12 +179,12 @@ nav a {
   background:url(../images/twitterlogo.png) no-repeat 0 0;
 }
 
-nav a.twitter {
+nav.links a.twitter {
   background-color:#8ae0fc;
 }
 
-nav a.twitter:hover,
-nav a.twitter:focus {
+nav.links a.twitter:hover,
+nav.links a.twitter:focus {
   background-color: #7bc4dc;
 }
 
@@ -164,12 +192,12 @@ nav a.twitter:focus {
   background: url(../images/tumblrlogo.png) no-repeat 0 0;
 }
 
-nav a.tumblr {
+nav.links a.tumblr {
   background-color:#eb9dbb;
 }
 
-nav a.tumblr:hover,
-nav a.tumblr:focus {
+nav.links a.tumblr:hover,
+nav.links a.tumblr:focus {
 background-color: #c5839c;
 }
 
@@ -177,23 +205,13 @@ background-color: #c5839c;
   background: url(../images/linkedinlogo.png) no-repeat 0 0;
 }
 
-nav a.linkedin {
+nav.links a.linkedin {
   background-color:#7891b4;
 }
 
-nav a.linkedin:hover,
-nav a.linkedin:focus {
+nav.links a.linkedin:hover,
+nav.links a.linkedin:focus {
 background-color: #687d9b;
-}
-
-#anchor {
-  float:right;
-  margin-top:-100px;
-  margin-right:75px;
-  width:50px;
-  height:100px;
-  z-index:90;
-  cursor: url(../images/cursor.png), auto;  
 }
 
 #bottom {
