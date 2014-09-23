@@ -1,0 +1,102 @@
+/* Reset & Basic style */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+body {
+  font-size:17px;
+  line-height:17px;
+  height:100%;
+  width: 100%;
+  font-family: "Century Gothic",Helvetica,Arial,sans-serif;
+  letter-spacing:3px;
+  text-rendering: optimizeLegibility;
+  text-transform:uppercase;
+}
+
+.wrap {
+  clear:both;
+  position:relative;
+  width:800px;
+  margin-top: 7.5%;
+  margin-left: 20%;
+  text-align:center;
+}
+
+#logo {
+  position:relative;
+  width:90px;
+  height:60px;
+  display:block;
+  margin:0 auto 80px;
+  background:url(../images/titlelogo.png) no-repeat 50% 50%;
+  z-index: 100;
+}
+
+#placeholder {
+  width: 30%;
+  height: 30%;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size:13px;
+  line-height:12px;
+  position:relative;
+  margin-top:10px;
+  letter-spacing:1px;
+  color:black;
+}
+
+.topbar {
+  width: 100%;
+  margin: -50px auto 0 auto;
+  list-style: none;
+  text-align: center;
+  display: block;
+}
+
+.topbar ul {
+  display: inline-table;
+}
+
+.topbar ul li {
+  float: left;
+  color: black;
+  padding: 5px;
+  font-size: 12px;
+  display: inline;
+}
+
+.topbar a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.topbar a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.topbar a:active {
+  color: black;
+  text-decoration: underline;
+}

@@ -161,6 +161,12 @@ h4 em {
   text-decoration: underline;
 }
 
+
+.topbar a:active {
+  color: black;
+  text-decoration: underline;
+}
+
 nav.links {
   position:relative;
   display:block;
