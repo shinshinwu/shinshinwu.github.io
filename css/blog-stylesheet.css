@@ -1,0 +1,78 @@
+body {
+  width: 100%;
+  height: 90%;
+}
+
+header {
+  text-align: center;
+  font-family: "Century Gothic",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#profile {
+  border-radius:50%;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #969191;
+}
+
+h3 {
+  font-family: "Century Gothic",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+nav {
+  display: inline-block;
+  margin: 0 auto;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  font-size: 12px;
+}
+
+nav a {
+ text-decoration: none;
+ color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a:active {
+  text-decoration: underline;
+}
+
+table {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 2.5%;
+}
+
+td.date {
+  width: 10%;
+  vertical-align: top;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+
+td.space {
+  width: 4%;
+}
+
+td.content {
+  width: 86%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+
+
+/*table doesn't take 95% space when list pictures.*/

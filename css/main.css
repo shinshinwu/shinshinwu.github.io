@@ -68,7 +68,7 @@ p {
 
 #carousel {
   position:relative;
-  margin: -60px auto -60px auto;
+  margin: 20px auto -60px auto;
   width: 480px;
   overflow:hidden;
 }
@@ -129,15 +129,19 @@ h4 em {
   color:#aaa;
 }
 
-nav.topbar {
-  text-align: center;
+.topbar {
   width: 100%;
-  margin: 0 auto;
+  margin: -50px auto 0 auto;
   list-style: none;
   text-align: center;
+  display: block;
 }
 
-nav.topbar li {
+.topbar ul {
+  display: inline-table;
+}
+
+.topbar ul li {
   float: left;
   color: black;
   padding: 5px;
@@ -145,14 +149,14 @@ nav.topbar li {
   display: inline;
 }
 
-nav.topbar a {
+.topbar a {
   color: black;
   text-decoration: none;
   text-align: center;
   display: inline-block;
 }
 
-nav.topbar a:hover a:active {
+.topbar a:hover {
   color: black;
   text-decoration: underline;
 }
