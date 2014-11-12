@@ -22,11 +22,13 @@ vertical-align: baseline;
 .code {
   background-color: #bcbcbc;
   padding: 3px;
+  color: black;
 }
 
 body {
   width: 100%;
   height: 90%;
+  color: #6c6c70;
 }
 
 header {
@@ -36,10 +38,13 @@ header {
   font-size: 12px;
 }
 
+
 #profile {
   border-radius:50%;
+  height: 200px;
+  width: 200px;
   display: block;
-  margin: 0 auto;
+  margin: 15px auto;
   border: 2px solid #969191;
 }
 
@@ -69,10 +74,7 @@ nav a {
  color: black;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
-
+nav a:hover,
 nav a:active {
   text-decoration: underline;
 }
@@ -83,22 +85,81 @@ table {
   padding: 2.5%;
 }
 
+td {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+
 td.date {
   width: 10%;
   vertical-align: top;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
 }
 
 td.space {
-  width: 4%;
+  width: 3%;
 }
 
 td.content {
-  width: 86%;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
+  width: 69%;
 }
 
+td.recent-entries {
+  width: 35%;
+  text-align: center;
+}
+
+.content a,
+td.recent-entries a {
+  color: #6c6c70;
+  text-decoration: none;
+}
+
+.content a:hover,
+td.recent-entries a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+td.recent-entries p {
+  font-size: 10px;
+}
 
 /*table doesn't take 95% space when list pictures.*/
+
+.footer {
+  padding-bottom: 5%;
+  padding-right: 10%;
+}
+
+.pagination {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  float: right;
+}
+
+.pagination li {
+  display: block;
+  float: left;
+  height: 2em;
+  color: #222222;
+  margin-left: 0.41667em;
+}
+
+.pagination li a {
+  display: block;
+  padding: 0.08333em 0.58333em 0.08333em;
+  color: #999999;
+}
+
+.pagination li:hover a,
+.pagination li a:focus {
+  background: #e6e6e6;
+}
+
+.pagination li.current a {
+  background: #e6e6e6;
+  color: black;
+  font-weight: 600;
+  cursor: default;
+}

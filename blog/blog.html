@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="../css/blog-stylesheet.css" />
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+   <title>Anna's Chunky Bacon and Sweater House</title>
+
+</head>
+
+  <header>
+    <img src="https://avatars2.githubusercontent.com/u/7707205?v=2&s=460" id="profile" />
+    <nav>
+      <ul>
+        <li><a href="../index.html">/ Home /</a></li>
+        <li><a href="../portfolio/portfolio.html">/ Portfolio /</a></li>
+        <li><a href="blog.html">/ Blog /</a></li>
+        <li><a href="../about/about.html">/ About Me /</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <!-- Blog Entry 1 -->
+
+          <td class="date"><hr><br>DATE<br><br> Sunday, October 05 2014<br><br>First week of fall, starting to feel like it...</td>
+          <td class="space"></td>
+          <td class="content"><hr><br>
+            <h3>Week 9 Tech Blog Place Holder</h3>
+            <br><p>Have you ever played blocks when you are young? (Or maybe you still are, no judgement here, they are actually quite intellectual stimulating.) Now think of when you are done playing and putting all your blocks into a box where it can be safely kept. Now think of the box as array, and the blocks inside are the varies elements that makes up an array! Now arrays can contain almost anything (strings, number, boolean etc) you throw in there, it just takes them and safekeep it for you until you need something from it.</p>
+            <br>
+            <p>Everything in an array is assigned an index number depending on the order they were put into the array. And those index number become the unique identifier of those elements. When you need one particular element from the array, you have to call it by its index number to access it. For example:</p>
+            <br>
+            <div class="code">array = ["this", "is", 5, "just", "another", 155, "awesome", "day"]</div>
+            <br>
+            <p>If you are only trying to pull out "awsome" from your array table, you will enter array[6]. Because if you count all the entries prior tp "awesome", there are 6 elememts, and the first element have the index starting at 0 ("this"), and second element have the index of 1 ("is") and so on.</p>
+            <br>
+            <p>Now hashes.</p>
+            <br>
+            <p>The best way of explaining the relationship of array and hashes is to understand hashes as associative arrays. All elements in hashes are in certain orders as well. However, instead of referring to the elements in arrays according to their automatically assigned index number, you tell how the elements in hashes should be identified as. For example:</p>
+            <br>
+            <div class="code">hash = { <br>
+              'candy' => 'sour patch', <br>
+              'fruit' => 'apple', <br>
+              'book' => 'outliers', <br>
+              'number' => 33, <br>
+            }</div>
+            <br>
+            <p>You will refer to 'sour patch' by calling hash['candy'] and the number 33 by calling hash[number]. There are different benefits of using arrays and hashes, the biggest question you should consider before deciding on using hash or array is that is it important for each elements in the container to have its unique identifier and would refer to the element by counting its index location be a tideous task.</p>
+            <br>
+            <p>If you still have questions, feel free to call me out on Twitter! Happying hashing!</p>
+            <br><br>
+            <img src="http://media.tumblr.com/722fa9de49f7fbbc18e86bfec0013ed0/tumblr_inline_nbxbfq1QXZ1rnvwt1.gif" /><br><br>
+          </td>
+          <td class="space"></td>
+          <td class="recent-entries"><hr><br>
+            RECENT ARTICLES
+            <br><br><div class="title">Week 9 Holder</div>
+            <p>POSTED ON NOVEMBER 01, 2014</p>
+            <br><div class="title">Week 9 Holder</div>
+            <p>POSTED ON NOVEMBER 01, 2014</p>
+            <br><a href="blog-entries/t8-cheatsheet.html">JavaScript Object Cheatsheet</a>
+            <p>POSTED ON NOVEMBER 06, 2014</p>
+            <br><a href="blog-entries/t8-tech.html">The Savior: Regular Expression</a>
+            <p>POSTED ON NOVEMBER 07, 2014</p>
+            <br><a href="blog-entries/c8-conflict.html">Fighting Conflicts</a>
+            <p>POSTED ON NOVEMBER 07, 2014</p>
+          </td>
+        </tr>
+        <tr>
+          <!-- Blog Entry 2 -->
+
+          <td class="date"><hr><br>DATE<br><br> Sunday, October 05 2014<br><br>First week of fall, starting to feel like it...</td>
+          <td class="space"></td>
+          <td class="content"><hr><br>
+            <h3>Week 9 Culture Blog Holder</h3>
+            <br><p>No it means more than whether you are standing, or lying down, or is running. We are talking about CSS here!
+            <br><br>
+            To begine with, CSS (the sheet that defines the layout of your web page, it is the tool to make all pages colorful and pretty) by default set all your objects in your html to be static. Which means "I don't care where you will be on this web page. Just stay wherever you usually are".
+            <br><br>
+            <img src="http://cutestuff.co/wp-content/uploads/2012/11/how_lazy_puppies_eat_dinner.jpg" />
+            <br><br>
+            Fixed positioning, on the other hand, means "We really care about where you are on my page. Thus I am putting you in one place and you can never move!" When an element is set to be fixed position for example on top righ corner of the page, they will stay there FOREVER. So when you scroll up or down, they will still be on the top right corner.
+            <br><br>
+            Now comes the comparison of relative positioning and absolute postioning. The best way to describe their difference is think of relative positioning as the nice kid at school and absolute positioning as that bulley. Relative postioning will always make ways for others in the hallway to let them pass by and they can adjust their seats (position) depends on other students (elements) location in the classroom (web page).
+            <br><br>
+            Absolute postioning on the other hand, will never cave to other people (elements). They are set in one place and if other people don't want to go around him, they will have a head to head conflict with the bulley. And usually that means one of them will disappear (one of the elements will be covered by another depends on their z-index).
+            <br><br>
+            Hopefully that was easy for you to understand! York University have a great and simple example <a href="http://www.yorku.ca/nmw/facs1939f13/week02/css_relVSabsVSfixed.html" target="_blank">HERE</a> if you want more clarifications.
+            <br><br>
+            And no, NO ONE likes bullies. Don't be that guy/girl!
+            </p><br>
+            <img src="http://eagnews.org/wp-content/uploads/2014/04/bullying.jpg" /><br><br>
+          </td>
+        </tr>
+        <tr>
+          <!-- Blog Entry 3 -->
+
+           <td class="date"><hr><br>DATE<br><br>Thursday, Nov 06 2014<br><br>Couldn't figure out a better template for cheat sheet, so temporarily here</td>
+          <td class="space"></td>
+          <td class="content"><hr><br>
+            <h3><a href="blog-entries/t8-cheatsheet.html">Cheatsheet: What is Javascript Prototype?</a></h3>
+            <br><p>All JavaScript object inherites proporties from Object prototype. From example:</p>
+            <br>
+            <div class="code">var Person=function(<br>profession,name,age,gender){<br>
+            this.profession = profession;<br>
+            this.name=name;<br>
+            this.age=age;<br>
+            this.gender=gender;<br>
+            this.alive=true;<br>
+            }</div>
+            <br>
+            <p>Here are some its most popular methods and their usage. For example:<br>
+            mike.name will return 'Mike';<br>
+            mike.gender will return undefined;<br>
+            mike.alive will return true;</p>
+            <br>
+            <p>Now we will define a new object Developer.</p>
+            <br>
+            <div class="code">var Developer = function(language) {<br>
+            this.language = language;<br>
+            this.speak = function() {<br>
+            console.log("I love writing in " + this.language + "!");<br>
+            };<br>
+            }<br><br>
+            Developer.prototype = new Person("Developer");<br>
+            var mike = new Developer("Ruby");</div>
+            <br>
+            <p>This way, if we call mike.speak(); it will return "I love writing in Ruby!" and if we call mike.profession = "Developer"; This happens because mike as a developer, he inherited the same properties from Person.</p>
+            <br>
+            <p>Now we will jump into a popular method property of prototypes. The method: hasOwnProperty(). This method return a boolean value to see if the object have property pass to the parameter. Some examples:</p>
+            <br>
+            <div class="code">mike.hasOwnProperty("language")#=> true<br>
+            mike.hasOwnProperty("alive")#=>false
+            }</div>
+            <br>
+            <p>Hope this cheat sheet shed some light on JavaScript prototypes and what are some ways you can put it into use.</p>
+            <br>
+            <img src="http://2.bp.blogspot.com/-zVNN8K11FW4/UNt_3e096DI/AAAAAAAAAFM/seH7qdbVxOo/s1600/the-most-interesting-man-in-the-world-meme-generator-i-don-t-always-make-sense-but-when-i-do-i-don-t-c9460e.jpg" /><br><br>
+          </td>
+        </tr>
+        <tr>
+          <!-- Blog Entry 4 -->
+
+          <td class="date"><hr><br>DATE<br><br>Friday, Nov 07, 2014<br><br>Food truch festival tonight, sayyy wattt</td>
+          <td class="space"></td>
+          <td class="content"><hr><br>
+            <h3><a href="blog-entries/t8-tech.html">The Savior: Regular Expression</a></h3>
+            <br><p>Attended the talk on "Stuff everybody should know" by the CTO of npmjs Laurie Voss and it was very beneficial. One of the "stuff" he pointed out that web newbies such as the grads of coding bootcamps should know is RegEx. So, here is a blog post on that!</p>
+            <br>
+            <p>So what is Regular Expression? Conflicted with its name, regular expression is NOT so regular as it is not very self-explainatory just by the looks of it. It is a pattern describing a certain amount of text. It is very useful in data validation and searching. For example, one of the data field your website is collecting is user's email addresses. However, you want to validate it that it follows certain pattern such as (for some reason) it has to be 12 charactors long and there should be a number in front of the @ sign.</p>
+            <br>
+            <p>Yes, there are if else or switch statements you can write to validate that. But think about the large loop you will have to write to complete that. In this case, writing a regular expression to validate your date is the most efficient way to go. Some of regex you probably have seen in ruby codes are \d, \w, \s and such. So here we will make a cheetsheat on what they mean.</p>
+            <br>
+            <div class="code">\d matches a single character that is a digit<br><br>
+            \w matches a "word character" that is alphanumeric characters plus underscores<br><br>
+            and \s matches a whitespace character that includes tabs and line breaks<br><br>
+            a dot (.) matches a single character, except for line break characters.</div>
+            <br>
+            <p>By now you probably have also seen some characters floating around in regex. Special characters such as backslash(\), dollar sign($), asterisk(*) etc all means different things and they are refered to as metacharacters. If you want to just use any of those characters as a literal in a regex, you will need to escape them with a backslash. Such as "1+1" will need to be entered as "1\+1". Below you will see anchors in work.</p>
+            <br>
+            <div class="code">Anchors do not match any characters, they match a position.<br><br>
+            ^ matches at the start of the string.<br><br>
+            While $ matches at the end of the string.<br><br>
+            For example, \b matches the first b in bob while $b matches the second b.</div>
+            <br>
+            <p>This blog entry is only meant to start the conversation on regex as it is a vast topic (and if were easy to understand, then everybody would understand). Below are two good reference if you want to learn more on the topic:</p>
+            <br>
+            <p><a href= "http://msdn.microsoft.com/en-us/library/az24scfc(v=vs.110).aspx">Microsoft Developer Network RegEx document</a><br>
+            <a href="http://www.freeformatter.com/regex-tester.html">RegEx generator with a good reference list</a></p>
+            <br>
+            <p>Later when I have more time aka actually know better about what I am talking about I will write another entry on the topic!</p>
+            <br>
+            <img src="http://troll.me/images/the-most-interesting-man-in-the-world/i-dont-cry-often-but-when-i-do-its-when-figuring-out-regular-expressions.jpg" /><br><br>
+          </td>
+        </tr>
+        <tr>
+          <!-- Blog Entry 5 -->
+
+          <td class="date"><hr><br>DATE<br><br>Friday, Nov 07, 2014<br><br>A beautiful week in SF, could not asked for more!</td>
+          <td class="space"></td>
+          <td class="content"><hr><br>
+            <h3><a href="blog-entries/c8-conflict.html">Fighting Conflicts</a></h3>
+            <br><p>DBC culture blog topics are getting increasingly personal...
+            <br><br>
+            By now, especially few years into the work force, all of us should have dealt with conflicts and shame one way or another. Conflicts in the personal space tend to be much more intense because they are personal while confilicts in professional space can happen more often but usually not as personal.
+            <br><br>
+            The most recent conflict happened to me at my fairly new position with the bank. I had started a new position dealing with corporate communication matters in June. Though at the time I already know my determined intention to leave and pursue coding as a career, I had every intention to do the best I can and push the department as far as I could.
+            <br><br>
+            Within a month of me starting they finally filled the position of my manager. While she is a very very sweet lady and to date probably still one of the nicest person I have met. We certainly had differences in our working styles and schedules.
+            <br><br>One thing I struggeled the most, not much because of her, but because of the job description in general is, in such large corporation as the one I was working at, getting approvals is an insane process. You will have to get layers and layers of approvals for one simple communication piece you are drafting. This can create problems when all your approvers have very strong personalities and different personal preference. There have been few times I proposed changes to the communication pieces in what I consider is the best way of spreading the news. But they were overlooked by my manager. I have brought it up to her twice and the response has been to better fitted with the leadership tone. After few times, it gets fairly discouraging so I stopped providing my suggestions unless there are major issues. And I started to doubt my ability, not in general, but my ability and fit for the position.
+            <br><br>Looking at the compass of shame, I think it was the perfect example of withdrawl. This did not help to build a more productive environment and certainly did not improve my sense of fulfillment at my job. However, that did serve as my last straw in my determination to leave the financial service industry in general. I am tired of endless inefficient processes and the ridiculous lengh of time to get anything done. Thus I prefer to take matter into my own hand and build things I can see the results of immediately.
+            <br><br>So now, here I am DBC!<br><br>
+            <img src="http://staffingtalk.com/static/upload%5C2014%5C10%5C16/1413477041_.png" /><br><br>
+            <hr>
+      </tbody>
+    </table>
+    <!-- Bottom page footer -->
+    <div class="footer">
+
+      <ul class="pagination">
+        <li class="current"><a href="">1</a></li>
+        <li><a href="/blogs/blog?page=2">2</a></li>
+        <li><a href="/blogs/blog?page=3">3</a></li>
+        <li class="unavailable">&hellip;</li>
+        <li  class="arrow right"><a href="/blogs/blog?page=2">Next <span class="glyph arrow-right"></span></a></li>
+      </ul>
+
+    </div>
+
+  </body>
+</html>
+
