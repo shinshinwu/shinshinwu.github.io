@@ -3,7 +3,8 @@
 <html>
 <head>
    <meta charset="utf-8">
-   <link rel="stylesheet" type="text/css" href="../css/blog-stylesheet.css" />
+   <link rel="stylesheet" type="text/css" href="../../css/blog-stylesheet.css" />
+   <link rel="shortcut icon" href="../../images/favicon.png" />
    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
    <title>Anna's Chunky Bacon and Sweater House</title>
 
@@ -13,10 +14,10 @@
     <img src="https://avatars2.githubusercontent.com/u/7707205?v=2&s=460" id="profile" />
     <nav>
       <ul>
-        <li><a href="../index.html">/ Home /</a></li>
-        <li><a href="../portfolio/portfolio.html">/ Portfolio /</a></li>
-        <li><a href="c1-chefs-kitchen.html">/ Blog /</a></li>
-        <li><a href="../about/about.html">/ About Me /</a></li>
+        <li><a href="../../index.html">/ Home /</a></li>
+        <li><a href="../../portfolio/portfolio.html">/ Portfolio /</a></li>
+        <li><a href="../blog.html">/ Blog /</a></li>
+        <li><a href="../../about/about.html">/ About Me /</a></li>
       </ul>
     </nav>
   </header>
@@ -26,87 +27,16 @@
     <table>
       <tbody>
         <tr>
-          <td class="date"><br><br><br><br>Sunday,<br>Oct 5th, 2014<br><br>First week of fall, starting to feel like it...</td>
+          <td class="date"><hr><br>DATE<br><br>Wednesday, Sept 17, 2014<br><br>Cooking chunky beef wrapped in bacon</td>
           <td class="space"></td>
-          <td class="content">
-            <h3>Arrays vs. Hashes</h3>
-            <p>Have you ever played blocks when you are young? (Or maybe you still are, no judgement here, they are actually quite intellectual stimulating.) Now think of when you are done playing and putting all your blocks into a box where it can be safely kept. Now think of the box as array, and the blocks inside are the varies elements that makes up an array! Now arrays can contain almost anything (strings, number, boolean etc) you throw in there, it just takes them and safekeep it for you until you need something from it.</p>
-            <br>
-            <p>Everything in an array is assigned an index number depending on the order they were put into the array. And those index number become the unique identifier of those elements. When you need one particular element from the array, you have to call it by its index number to access it. For example:</p>
-            <br>
-            <div class="code">array = ["this", "is", 5, "just", "another", 155, "awesome", "day"]</div>
-            <br>
-            <p>If you are only trying to pull out "awsome" from your array table, you will enter array[6]. Because if you count all the entries prior tp "awesome", there are 6 elememts, and the first element have the index starting at 0 ("this"), and second element have the index of 1 ("is") and so on.</p>
-            <br>
-            <p>Now hashes.</p>
-            <br>
-            <p>The best way of explaining the relationship of array and hashes is to understand hashes as associative arrays. All elements in hashes are in certain orders as well. However, instead of referring to the elements in arrays according to their automatically assigned index number, you tell how the elements in hashes should be identified as. For example:</p>
-            <br>
-            <div class="code">hash = { <br>
-              'candy' => 'sour patch', <br>
-              'fruit' => 'apple', <br>
-              'book' => 'outliers', <br>
-              'number' => 33, <br>
-            }</div>
-            <br>
-            <p>You will refer to 'sour patch' by calling hash['candy'] and the number 33 by calling hash[number]. There are different benefits of using arrays and hashes, the biggest question you should consider before deciding on using hash or array is that is it important for each elements in the container to have its unique identifier and would refer to the element by counting its index location be a tideous task.</p>
-            <br>
-            <p>If you still have questions, feel free to call me out on Twitter! Happying hashing!</p>
-            <br>
-            <img src="http://media.tumblr.com/722fa9de49f7fbbc18e86bfec0013ed0/tumblr_inline_nbxbfq1QXZ1rnvwt1.gif" />
-            <hr>
-          </td>
-        </tr>
-        <tr>
-          <td class="date"><br><br><br><br>Tuesday,<br>Sept 23rd, 2014<br><br>Slightly chilly - first day of fall!</td>
-          <td class="space"></td>
-          <td class="content">
-            <h3>Differences between Relative vs Absolute vs Fixed positioning</h3>
-            <p>No it means more than whether you are standing, or lying down, or is running. We are talking about CSS here!
-            <br><br>
-            To begine with, CSS (the sheet that defines the layout of your web page, it is the tool to make all pages colorful and pretty) by default set all your objects in your html to be static. Which means "I don't care where you will be on this web page. Just stay wherever you usually are".
-            <br><br>
-            <img src="http://cutestuff.co/wp-content/uploads/2012/11/how_lazy_puppies_eat_dinner.jpg" />
-            <br><br>
-            Fixed positioning, on the other hand, means "We really care about where you are on my page. Thus I am putting you in one place and you can never move!" When an element is set to be fixed position for example on top righ corner of the page, they will stay there FOREVER. So when you scroll up or down, they will still be on the top right corner.
-            <br><br>
-            Now comes the comparison of relative positioning and absolute postioning. The best way to describe their difference is think of relative positioning as the nice kid at school and absolute positioning as that bulley. Relative postioning will always make ways for others in the hallway to let them pass by and they can adjust their seats (position) depends on other students (elements) location in the classroom (web page).
-            <br><br>
-            Absolute postioning on the other hand, will never cave to other people (elements). They are set in one place and if other people don't want to go around him, they will have a head to head conflict with the bulley. And usually that means one of them will disappear (one of the elements will be covered by another depends on their z-index).
-            <br><br>
-            Hopefully that was easy for you to understand! York University have a great and simple example <a href="http://www.yorku.ca/nmw/facs1939f13/week02/css_relVSabsVSfixed.html" target="_blank">HERE</a> if you want more clarifications.
-            <br><br>
-            And no, NO ONE likes bullies. Don't be that guy/girl!
-            </p>
-            <img src="http://eagnews.org/wp-content/uploads/2014/04/bullying.jpg" />
-            <hr>
-          </td>
-        </tr>
-        <tr>
-          <td class="date"><br><br><br><br>Wednesday, <br>Sept 17th, 2014<br><br>Cooking chunky beef wrapped in bacon</td>
-          <td class="space"></td>
-          <td class="content">
+          <td class="content"><hr><br>
             <h3>Cultural Blog: Chefs in the Kitchen</h3>
-            <p>I have visited quite few similar Bootcamp program in their location or have attended their events in New York City before deciding to join DBC. Mainly because all programs are all very new and in the cases that many students don't know what they are doing, I hope the staff and their instructors do. Course structure wise I also like the phase system in DBC a lot as it is very well structured and filter out the unlikelies in the begining and make sure everyone is on pace, this is not something I have seen with other bootcamps.
+            <br><p>I have visited quite few similar Bootcamp program in their location or have attended their events in New York City before deciding to join DBC. Mainly because all programs are all very new and in the cases that many students don't know what they are doing, I hope the staff and their instructors do. Course structure wise I also like the phase system in DBC a lot as it is very well structured and filter out the unlikelies in the begining and make sure everyone is on pace, this is not something I have seen with other bootcamps.
             <br><br>
             The DBC experience explained in the video is exactly what I have expected. I have had friend participated in another bootcamp program and talking to him really helped me to prep for the lifestyle mentally. I think there is no way one can completely switch his/her career track within 3 months if they are not 200% committed. In popular term: No pain, no gain. But I am very excited to be surrounded by people who are just as eager to learn as me and absorbing knowledge like they have never been before. It will be a great experience for me to discover what I am capable of.
             <br><br>
-            DBC see you in few weeks!</p>
-            <img src="http://33.media.tumblr.com/6e04e27abf17bf10a98c615eab58ca67/tumblr_mkxnewxFa11qzfjkho1_400.gif" />
-            <hr>
-          </td>
-        </tr>
-        <tr>
-          <td class="date"><br><br><br><br>Monday,<br>Sept 15th, 2014<br><br>Cold - writing in chunky furry sweater</td>
-          <td class="space"></td>
-          <td class="content">
-            <h3>Git Blog: Q & A</h3>
-            <p>Version control helps to remedy what all human makes - errors. In the case of something goes wrong, you will have the power to turn the time clock backwards and return back to the point in time the last working version exists. Also it greatly helps when you are working on a project with others and you can easily identify the changes others have made. Big note to self when writing codes: TYPO KILLS.
-            <br><br>
-            Git is a version control tool that it basically keeps an eye for you on your working folder. It taps on your shoulder and tells you "Hey, you have changed this files, do you want to save your changes?" And with combination with tools such as Github, BitBucket and Beanstalk, you can share your codes with others and/or have remote access to your codes.
-            <br><br>
-            Why is Github awesome? It is free (for the most part), lets you to collaborate with others easily and they have awesome Octocat as logo! (can someone please explain to me why Octocat is the github logo, there must be a background joke here).</p>
-            <img src="http://media.tumblr.com/tumblr_lwqhdfRPEN1qksfzk.gif" />
+            DBC see you in few weeks!</p><br>
+            <img src="http://33.media.tumblr.com/6e04e27abf17bf10a98c615eab58ca67/tumblr_mkxnewxFa11qzfjkho1_400.gif" /><br><br>
             <hr>
           </td>
         </tr>
