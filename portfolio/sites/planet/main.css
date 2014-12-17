@@ -1,0 +1,144 @@
+/* Reset & Basic style */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+/*==========================================*/
+
+
+body {
+  background-color: #153B66;
+  background-image: url(imgs/stars.png);
+  background-repeat: repeat;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 3.5em;
+  color: white;
+  text-align: center;
+  display: block;
+}
+
+.container {
+  padding-top: 100px;
+  display: block;
+  margin: 0 auto;
+  width: 1200px;
+  height: 1200px;
+}
+
+#sun {
+  margin: 0.5%;
+  display: inline-block;
+  background-color: #FF0000;
+  border-radius: 100%;
+  width: 20%;
+  height: 20%;
+}
+
+#mercury {
+  margin: 0.5%;
+  display: inline-block;
+  background-color: #9C98AC;
+  border-radius: 100%;
+  width: 2%;
+  height: 2%;
+}
+
+#venus {
+  margin: 0.5%;
+  display: inline-block;
+  background-color: #F79B56;
+  border-radius: 100%;
+  width: 4%;
+  height: 4%;
+}
+
+#earth {
+  margin: 0.5%;
+  display: inline-block;
+  width: 4%;
+  height: 4%;
+}
+
+#earth img {
+  width: 100%;
+  height: 100%;
+}
+
+#moon {
+  margin: 0.5%;
+  display: inline-block;
+  background-color: #FDFCFF;
+  border-radius: 100%;
+  width: 1%;
+  height: 1%;
+}
+
+#mars {
+  margin: 0.5%;
+  display: inline-block;
+  background-color: #FF00B2;
+  border-radius: 100%;
+  width: 3%;
+  height: 3%;
+}
+
+#jupiter {
+  margin: 0.5%;
+  display: inline-block;
+  width: 15%;
+  height: 15%;
+}
+
+#jupiter img {
+  width: 100%;
+  height: 100%;
+}
+
+#saturn {
+  margin: 0.5%;
+  display: inline-block;
+  width: 20%;
+  height: 20%;
+}
+
+#saturn img {
+  width: 100%;
+  height: 50%;
+}
+
+#uranus {
+  margin: 0.5%;
+  display: inline-block;
+  background-color: #01EEF3;
+  border-radius: 100%;
+  width: 10%;
+  height: 10%;
+}
+
+#neptune {
+  margin: 0.5%;
+  display: inline-block;
+  background-color: #007DA4;
+  border-radius: 100%;
+  width: 8%;
+  height: 8%;
+}
