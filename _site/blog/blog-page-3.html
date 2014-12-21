@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="../css/blog-stylesheet.css" />
+   <link rel="shortcut icon" href="../images/favicon.png" />
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+   <title>Anna's Chunky Bacon and Sweater House</title>
+
+</head>
+
+  <header>
+    <img src="https://avatars2.githubusercontent.com/u/7707205?v=2&s=460" id="profile" />
+    <nav>
+      <ul>
+        <li><a href="../index.html">/ Home /</a></li>
+        <li><a href="../portfolio/portfolio.html">/ Portfolio /</a></li>
+        <li><a href="blog.html">/ Blog /</a></li>
+        <li><a href="../about/about.html">/ About Me /</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <!-- Blog Entry 1 -->
+
+          <td class="date"><hr><br>DATE<br><br>Friday, Oct 10, 2014<br><br>Long weekend! Why is Columbus Day still a thing??</td>
+          <td class="space"></td>
+          <td class="content"><hr><br>
+            <h3><a href="blog-entries/t4-enumerable-methods.html">Ruby Enumerable - Map</a></h3>
+            <br><p>Learn how to code with Anna series #3!
+            <br><br>Today we will discuss some infamous Ruby Enumerable methods. Enumerable methods are extremely powerful in Ruby and helps to keep your code short and DRY (Don't Repeat Yourself), but they can be hard to understand at times.
+            <br><br>Today's example is .map and .collect methods in Ruby.</p>
+            <br>
+            <p>To start off, map and collect are EXACTLY the same method except some people have preference to write one over another because of the names. And what map and collect do is they will iterate through every single element in the array and does something with it. (map and collect can also be used with hashes but keep in consideration to set up the equation to include both keys and values).
+            <br>For example,</p>
+            <br>
+            <div class="code">[1,2,3,4].map {|i| i + 1} will return array [2,3,4,5]</div>
+            <br>
+            <p>One easy way to visualize this is to think about mapping things that has been modified in command you have given to a new set. And if you use the .map! method, it will modify the original array (destructive method).</p>
+            <br>
+            <p>How is it different than .each method?</p>
+            <br>
+            <p>Glad you asked! It can be confusing but one of the most straighforward way of thinking their differences is that .each simply iterate over the array and return the results. And it simply discards the results as soon as it finishes with the operation. .map is different, it runs the block operation and returns a new object with the changes. The new object in turn can be manipulated in other ways you desire. Simply said, with .map you can retrieve the results that with .each you can't.
+            <br><br>.map is a powerful function as many times it is used in conjunction with may other array and enumerable methods. Another example,</p>
+            <br>
+            <div class="code">[1,2,3,4].map.to_s will return array ["1", "2", "3", "4"]</div>
+            <br>
+            <p>and that is just one simple way to combining map with other methods to produce new desired arrays.
+            <br><br><br>RINGGGGGGGGG!
+            <br><br><BR>Ok guess that's the signal today's class is coming to an end. Hopefully you learned lots in today's session. If you have any questions, don't forget to tweet me @cakeisnotreal!</p>
+            <br>
+            <img src="http://roflmouse.com/wp-content/uploads/2012/05/funny-gifs-loop.gif" /><br><br>
+          </td>
+          <td class="space"></td>
+          <td class="recent-entries"><hr><br>
+            RECENT ARTICLES
+            <br><br><a href="blog-entries/c9-questions.html">Asking Good Questions</a>
+            <p>POSTED ON NOVEMBER 15, 2014</p>
+            <br><a href="blog-entries/t8-cheatsheet.html">JavaScript Object Cheatsheet</a>
+            <p>POSTED ON NOVEMBER 06, 2014</p>
+            <br><a href="blog-entries/t8-tech.html">The Savior: Regular Expression</a>
+            <p>POSTED ON NOVEMBER 07, 2014</p>
+            <br><a href="blog-entries/c8-conflict.html">Fighting Conflicts</a>
+            <p>POSTED ON NOVEMBER 07, 2014</p>
+            <br><a href="blog-entries/t7-oop-concepts.html">Blocks vs. Procs vs. Lambdas</a>
+            <p>POSTED ON OCTOBER 24, 2014</p>
+          </td>
+        </tr>
+
+        <tr>
+          <!-- Blog Entry 2 -->
+
+           <td class="date"><hr><br>DATE<br><br>Sunday, Oct 10, 2014<br><br>Talking about this topic just makes me anxious!</td>
+          <td class="space"></td>
+          <td class="content"><hr><br>
+            <h3><a href="blog-entries/c4-tech-issues.html">Net Neutrality - A right!</a></h3>
+            <br><p>For any gigantic indutries, there are always many, many issues. There is no exception for the telecommunication industry. The amount of money they spend on lobbing every year is ABSURD (and ultimately paid by us). The ultimate purpose? So they can pass laws in favor of them in order to make MORE money.
+            <br><br>
+            But I think there is a place you have to draw a line. And this line has been brought up in the recent year as the hot topic on Net Neutrality. This May, FCC (Federal Communications Commission) is facing a decision to perserve Net Neutrality or destroying it (NOOOOOOO).
+            <br><br>
+            Net Neutrality, if you are still unfamiliar with the term, is referring to the principle that all internet service providers and governments should treat all internet data equally. Service providers can not block certain contents or decide to charge more for certain contents and loading at a faster speed (think of how the cable business is currently run).
+            <br><br>
+            The issue comes to be bone of it, it's just another battle with the few telecommunication giants (looking at you verizon and cox) want to explore new ways of generating income and they want to push the government to test the limit (this is also an issue happening outside the US also). This is the first step for these giants to interfere with our Internet data and having authority over what we can access and what we can not access.
+            <br><br>That is a violation to our basic right of speech and violation to our right to receive equal internet access.
+            <br><br>
+            There is no better way of explaining this than in the great humoro of John Oliver:</p>
+            <br>
+            <iframe width="560" height="315" src="http://www.youtube.com/embed/fpbOEoRrHyU" frameborder="0" allowfullscreen></iframe><br><br>
+          </td>
+        </tr>
+        <tr>
+          <!-- Blog Entry 3 -->
+
+          <td class="date"><hr><br>DATE<br><br>Sunday, Oct 05, 2014<br><br>First week of fall, starting to feel like it...</td>
+          <td class="space"></td>
+          <td class="content"><hr><br>
+            <h3><a href="blog-entries/t3-arrays-hashes.html">Arrays vs. Hashes</a></h3>
+            <br><p>Have you ever played blocks when you are young? (Or maybe you still are, no judgement here, they are actually quite intellectual stimulating.) Now think of when you are done playing and putting all your blocks into a box where it can be safely kept. Now think of the box as array, and the blocks inside are the varies elements that makes up an array! Now arrays can contain almost anything (strings, number, boolean etc) you throw in there, it just takes them and safekeep it for you until you need something from it.</p>
+            <br>
+            <p>Everything in an array is assigned an index number depending on the order they were put into the array. And those index number become the unique identifier of those elements. When you need one particular element from the array, you have to call it by its index number to access it. For example:</p>
+            <br>
+            <div class="code">array = ["this", "is", 5, "just", "another", 155, "awesome", "day"]</div>
+            <br>
+            <p>If you are only trying to pull out "awsome" from your array table, you will enter array[6]. Because if you count all the entries prior tp "awesome", there are 6 elememts, and the first element have the index starting at 0 ("this"), and second element have the index of 1 ("is") and so on.</p>
+            <br>
+            <p>Now hashes.</p>
+            <br>
+            <p>The best way of explaining the relationship of array and hashes is to understand hashes as associative arrays. All elements in hashes are in certain orders as well. However, instead of referring to the elements in arrays according to their automatically assigned index number, you tell how the elements in hashes should be identified as. For example:</p>
+            <br>
+            <div class="code">hash = { <br>
+              'candy' => 'sour patch', <br>
+              'fruit' => 'apple', <br>
+              'book' => 'outliers', <br>
+              'number' => 33, <br>
+            }</div>
+            <br>
+            <p>You will refer to 'sour patch' by calling hash['candy'] and the number 33 by calling hash[number]. There are different benefits of using arrays and hashes, the biggest question you should consider before deciding on using hash or array is that is it important for each elements in the container to have its unique identifier and would refer to the element by counting its index location be a tideous task.</p>
+            <br>
+            <p>If you still have questions, feel free to call me out on Twitter! Happying hashing!</p>
+            <br>
+            <img src="http://media.tumblr.com/722fa9de49f7fbbc18e86bfec0013ed0/tumblr_inline_nbxbfq1QXZ1rnvwt1.gif" /><br><br>
+          </td>
+        </tr>
+        <tr>
+          <!-- Blog Entry 4 -->
+
+          <td class="date"><hr><br>DATE<br><br>Sunday, Oct 05, 2014<br><br>2 Blog entries in a day woohooo! Making up for the mistake Friday night...</td>
+          <td class="space"></td>
+          <td class="content"><hr><br>
+            <h3><a href="blog-entries/c3-thinking-style.html">Thinking about thinking style of thinking</a></h3>
+            <br><p>Over the years I have completed many types of exercises about my personality, my leadership style, my problem solving style and now my thinking style. It is always interesting to see how I fit into the buckets that others have created. They never fit quite perfectly but they do always point out things about me that I subconciously know but have never verbalize before.
+            <br><br>
+            In life and in work, I am a very practicle person. I like facts and numbers. If you want to convince me in an argument, I like to see proven evidence. If you want me to learn about something new, show me how they are used and let me practice myself. When I first started learning coding, I like to mix it up between going through tutorials and videos and doing challenges, mixing it up with building my personal website and utilize new knowledge right away. I enjoy hands-on learning as I am a firm believer that you can never truely understand something unless you have tried it yourself.
+            <br><br>
+            The discussion regarding growth and fixed mindset resonnate on a more personal level for me. Ever since my move from mainland China when I was 15, I sort of went on this ride that I can't stop and do not want to stop. Floating from one place to another, traveling and studying in different countries and cities. I love it and can not imagine being satisfied with things I currently have(though I appreciate every aspect of my life). Now again another move to pursue another career path and leaving behind my family, friends and love behind just because I can not stop in this journey. I have no idea where this path will lead me to but that's what is exciting for me. I don't want to live a predictable life where I know exactly where I will be in the next year and in the next three years.
+            <br><br>
+            So here's to another year of adventure.</p>
+            <br>
+            <img src="http://media.tumblr.com/b69b72d3df9cbcfe3ef398c2f30b2aa6/tumblr_inline_n95dbwtpYb1rnvwt1.gif" /><br><br>
+          </td>
+        </tr>
+
+        <tr>
+          <!-- Blog Entry 5 -->
+
+          <td class="date"><hr><br>DATE<br><br>Tuesday, Sept 23, 2014<br><br>Slightly chilly - first day of fall!/td>
+          <td class="space"></td>
+          <td class="content"><hr><br>
+            <h3><a href="blog-entries/t2-css-design.html">Differences between Relative vs Absolute vs Fixed positioning</a></h3>
+            <br><p>No it means more than whether you are standing, or lying down, or is running. We are talking about CSS here!
+            <br><br>
+            To begine with, CSS (the sheet that defines the layout of your web page, it is the tool to make all pages colorful and pretty) by default set all your objects in your html to be static. Which means "I don't care where you will be on this web page. Just stay wherever you usually are".
+            <br><br>
+            <img src="http://cutestuff.co/wp-content/uploads/2012/11/how_lazy_puppies_eat_dinner.jpg" />
+            <br><br>
+            Fixed positioning, on the other hand, means "We really care about where you are on my page. Thus I am putting you in one place and you can never move!" When an element is set to be fixed position for example on top righ corner of the page, they will stay there FOREVER. So when you scroll up or down, they will still be on the top right corner.
+            <br><br>
+            Now comes the comparison of relative positioning and absolute postioning. The best way to describe their difference is think of relative positioning as the nice kid at school and absolute positioning as that bulley. Relative postioning will always make ways for others in the hallway to let them pass by and they can adjust their seats (position) depends on other students (elements) location in the classroom (web page).
+            <br><br>
+            Absolute postioning on the other hand, will never cave to other people (elements). They are set in one place and if other people don't want to go around him, they will have a head to head conflict with the bulley. And usually that means one of them will disappear (one of the elements will be covered by another depends on their z-index).
+            <br><br>
+            Hopefully that was easy for you to understand! York University have a great and simple example <a href="http://www.yorku.ca/nmw/facs1939f13/week02/css_relVSabsVSfixed.html" target="_blank">HERE</a> if you want more clarifications.
+            <br><br>
+            And no, NO ONE likes bullies. Don't be that guy/girl!
+            </p><br>
+            <img src="http://eagnews.org/wp-content/uploads/2014/04/bullying.jpg" /><br><br>
+            <hr>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- Bottom page footer -->
+    <div class="footer">
+
+      <ul class="pagination">
+        <li><a href="blog.html">1</a></li>
+        <li><a href="blog-page-2.html">2</a></li>
+        <li class="current"><a href="blog-page-3.html">3</a></li>
+        <li class="unavailable">&hellip;</li>
+        <li><a href="blog-page-4.html">Last</a></li>
+      </ul>
+
+    </div>
+
+  </body>
+</html>
+

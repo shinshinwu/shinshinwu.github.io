@@ -1,0 +1,25 @@
+<p>By now you probably have written a lot of blocks and probably don’t even realize they are called blocks! So what is a block? Remember all those ruby array iteration you have wrote?</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">[</span><span class="s1">&#39;maple bacon&#39;</span><span class="p">,</span> <span class="s1">&#39;hardwood bacon&#39;</span><span class="p">,</span> <span class="s1">&#39;turkey bacon&#39;</span><span class="p">,</span> <span class="s1">&#39;oreos&#39;</span><span class="o">].</span><span class="n">each</span> <span class="p">{</span><span class="o">|</span><span class="n">e</span><span class="o">|</span> <span class="nb">p</span> <span class="n">e</span><span class="p">}</span>
+
+<span class="o">[</span><span class="s1">&#39;maple bacon&#39;</span><span class="p">,</span> <span class="s1">&#39;hardwood bacon&#39;</span><span class="p">,</span> <span class="s1">&#39;turkey bacon&#39;</span><span class="p">,</span> <span class="s1">&#39;oreos&#39;</span><span class="o">].</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">e</span><span class="o">|</span>
+  <span class="nb">p</span> <span class="n">e</span>
+<span class="k">end</span></code></pre></div>
+
+<p>Now you know what you have written is considered block, Proc and Lambda is easy! Both Proc and Lambda are types of blocks. Remember when you write ruby methods that include iterations so later on you can just call the methods without writing the itereation codes all over again? That is similar to what Proc and Lambda is. You can set up a block that does something to the input and save it as a Proc and Lambda. Later on, you can call the Proc and Lambda without writing the block of code again. For example:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">square</span> <span class="o">=</span> <span class="no">Proc</span><span class="o">.</span><span class="n">new</span> <span class="p">{</span><span class="o">|</span><span class="n">i</span><span class="o">|</span> <span class="n">i</span><span class="o">*</span><span class="n">i</span><span class="p">}</span>
+<span class="ow">or</span>
+<span class="n">square</span> <span class="o">=</span> <span class="nb">lambda</span> <span class="p">{</span><span class="o">|</span><span class="n">i</span><span class="o">|</span> <span class="n">i</span><span class="o">*</span><span class="n">i</span><span class="p">}</span></code></pre></div>
+
+<p>Both above equations will accomplish the same tasks which is to produce the square result of whatever number is passed into the equation. And as you can see, the Proc syntax is Proc.new {block} while lambda syntax is lambda {block}</p>
+
+<p>There are 2 differences between Proc and lambda and though they are relatively minor, they can make a difference when writing code at times.</p>
+
+<p>The first difference between the two is that a lambda checks the number of arguments passed in while Proc does not. Lambda will return argument error is number of arguments does not match up while Proc will defaultly set nil for any missing argument and throw out the extra ones.</p>
+
+<p>Second difference between Proc and Lambda is that when Proc finishes executing it will return results immediately while lambda will return to the original methods and finish executing all the codes in the methods. So for Proc, if there are other bits left in the method, they will NOT be executed while under lambda they will.</p>
+
+<p>Ok that is all for learning today! If you have any questions please tweet to me @cakeisnotreal!</p>
+
+<p><img src="http://3.bp.blogspot.com/-7DAvHAXSnvo/TmazVz9b_PI/AAAAAAAAA2g/r_Qmbzgynm4/s1600/schrute-syntax.jpg" alt="img" /></p>

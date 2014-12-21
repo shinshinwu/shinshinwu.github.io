@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="../../css/blog-stylesheet.css" />
+   <link rel="shortcut icon" href="../../images/favicon.png" />
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+   <title>Anna's Chunky Bacon and Sweater House</title>
+</head>
+
+  <header>
+    <img src="https://avatars2.githubusercontent.com/u/7707205?v=2&s=460" id="profile" />
+    <nav>
+      <ul>
+        <li><a href="../../index.html">/ Home /</a></li>
+        <li><a href="../../portfolio/portfolio.html">/ Portfolio /</a></li>
+        <li><a href="../blog.html">/ Blog /</a></li>
+        <li><a href="../../about/about.html">/ About Me /</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <td class="date"><hr><br>DATE<br><br>Thursday, Nov 06 2014<br><br>Couldn't figure out a better template for cheat sheet, so temporarily here</td>
+          <td class="space"></td>
+          <td class="content"><hr><br>
+            <h3>Cheatsheet: What is Javascript Prototype?</h3>
+            <br><p>All JavaScript object inherites proporties from Object prototype. From example:</p>
+            <br>
+            <div class="code">var Person=function(<br>profession,name,age,gender){<br>
+            this.profession = profession;<br>
+            this.name=name;<br>
+            this.age=age;<br>
+            this.gender=gender;<br>
+            this.alive=true;<br>
+            }</div>
+            <br>
+            <p>Here are some its most popular methods and their usage. For example:<br>
+            mike.name will return 'Mike';<br>
+            mike.gender will return undefined;<br>
+            mike.alive will return true;</p>
+            <br>
+            <p>Now we will define a new object Developer.</p>
+            <br>
+            <div class="code">var Developer = function(language) {<br>
+            this.language = language;<br>
+            this.speak = function() {<br>
+            console.log("I love writing in " + this.language + "!");<br>
+            };<br>
+            }<br><br>
+            Developer.prototype = new Person("Developer");<br>
+            var mike = new Developer("Ruby");</div>
+            <br>
+            <p>This way, if we call mike.speak(); it will return "I love writing in Ruby!" and if we call mike.profession = "Developer"; This happens because mike as a developer, he inherited the same properties from Person.</p>
+            <br>
+            <p>Now we will jump into a popular method property of prototypes. The method: hasOwnProperty(). This method return a boolean value to see if the object have property pass to the parameter. Some examples:</p>
+            <br>
+            <div class="code">mike.hasOwnProperty("language")#=> true<br>
+            mike.hasOwnProperty("alive")#=>false
+            }</div>
+            <br>
+            <p>Hope this cheat sheet shed some light on JavaScript prototypes and what are some ways you can put it into use.</p>
+            <br>
+            <img src="http://2.bp.blogspot.com/-zVNN8K11FW4/UNt_3e096DI/AAAAAAAAAFM/seH7qdbVxOo/s1600/the-most-interesting-man-in-the-world-meme-generator-i-don-t-always-make-sense-but-when-i-do-i-don-t-c9460e.jpg" />
+            <hr>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

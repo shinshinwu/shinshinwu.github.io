@@ -1,0 +1,45 @@
+<p>All JavaScript object inherites proporties from Object prototype. From example:</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">Person</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span>
+  <span class="nx">profession</span><span class="p">,</span><span class="nx">name</span><span class="p">,</span><span class="nx">age</span><span class="p">,</span><span class="nx">gender</span><span class="p">){</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">profession</span> <span class="o">=</span> <span class="nx">profession</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="o">=</span><span class="nx">name</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">age</span><span class="o">=</span><span class="nx">age</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">gender</span><span class="o">=</span><span class="nx">gender</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">alive</span><span class="o">=</span><span class="kc">true</span><span class="p">;</span>
+  <span class="p">};</span></code></pre></div>
+
+<p>Here are some its most popular methods and their usage. For example:</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">mike</span><span class="p">.</span><span class="nx">name</span><span class="p">;</span>
+<span class="err">#</span><span class="o">=&gt;</span> <span class="nx">will</span> <span class="k">return</span> <span class="s1">&#39;Mike&#39;</span>
+<span class="nx">mike</span><span class="p">.</span><span class="nx">gender</span><span class="p">;</span>
+<span class="err">#</span><span class="o">=&gt;</span> <span class="nx">will</span> <span class="k">return</span> <span class="kc">undefined</span><span class="p">;</span>
+<span class="nx">mike</span><span class="p">.</span><span class="nx">alive</span><span class="p">;</span>
+<span class="err">#</span><span class="o">=&gt;</span> <span class="nx">will</span> <span class="k">return</span> <span class="kc">true</span><span class="p">;</span></code></pre></div>
+
+<p>Now we will define a new object Developer.</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">Developer</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">language</span><span class="p">)</span> <span class="p">{</span>
+<span class="k">this</span><span class="p">.</span><span class="nx">language</span> <span class="o">=</span> <span class="nx">language</span><span class="p">;</span>
+<span class="k">this</span><span class="p">.</span><span class="nx">speak</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;I love writing in &quot;</span> <span class="o">+</span> <span class="k">this</span><span class="p">.</span><span class="nx">language</span> <span class="o">+</span> <span class="s2">&quot;!&quot;</span><span class="p">);</span>
+  <span class="p">};</span>
+<span class="p">}</span>
+
+<span class="nx">Developer</span><span class="p">.</span><span class="nx">prototype</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Developer&quot;</span><span class="p">);</span>
+
+<span class="kd">var</span> <span class="nx">mike</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Developer</span><span class="p">(</span><span class="s2">&quot;Ruby&quot;</span><span class="p">);</span></code></pre></div>
+
+<p>This way, if we call mike.speak(); it will return “I love writing in Ruby!” and if we call mike.profession = “Developer”; This happens because mike as a developer, he inherited the same properties from Person.</p>
+
+<p>Now we will jump into a popular method property of prototypes. The method: hasOwnProperty(). This method return a boolean value to see if the object have property pass to the parameter. Some examples:</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">mike</span><span class="p">.</span><span class="nx">hasOwnProperty</span><span class="p">(</span><span class="s2">&quot;language&quot;</span><span class="p">)</span>
+<span class="err">#</span><span class="o">=&gt;</span> <span class="kc">true</span>
+<span class="nx">mike</span><span class="p">.</span><span class="nx">hasOwnProperty</span><span class="p">(</span><span class="s2">&quot;alive&quot;</span><span class="p">)</span>
+<span class="err">#</span><span class="o">=&gt;</span><span class="kc">false</span></code></pre></div>
+
+<p>Hope this cheat sheet shed some light on JavaScript prototypes and what are some ways you can put it into use.</p>
+
+<p><img src="http://2.bp.blogspot.com/-zVNN8K11FW4/UNt_3e096DI/AAAAAAAAAFM/seH7qdbVxOo/s1600/the-most-interesting-man-in-the-world-meme-generator-i-don-t-always-make-sense-but-when-i-do-i-don-t-c9460e.jpg" alt="img" /></p>

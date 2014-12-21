@@ -1,0 +1,165 @@
+/* Reset & Basic style */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+.code {
+  background-color: #bcbcbc;
+  padding: 3px;
+  color: black;
+}
+
+body {
+  width: 100%;
+  height: 90%;
+  color: #6c6c70;
+}
+
+header {
+  text-align: center;
+  font-family: "Century Gothic",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+
+#profile {
+  border-radius:50%;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 15px auto;
+  border: 2px solid #969191;
+}
+
+h3 {
+  font-family: "Century Gothic",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+nav {
+  display: inline-block;
+  margin: 0 auto;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  font-size: 12px;
+}
+
+nav a {
+ text-decoration: none;
+ color: black;
+}
+
+nav a:hover,
+nav a:active {
+  text-decoration: underline;
+}
+
+table {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 2.5%;
+}
+
+td {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+
+td.date {
+  width: 10%;
+  vertical-align: top;
+}
+
+td.space {
+  width: 3%;
+}
+
+td.content {
+  width: 69%;
+}
+
+td.recent-entries {
+  width: 35%;
+  text-align: center;
+}
+
+.content a,
+td.recent-entries a {
+  color: #6c6c70;
+  text-decoration: none;
+}
+
+.content a:hover,
+td.recent-entries a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+td.recent-entries p {
+  font-size: 10px;
+}
+
+/*table doesn't take 95% space when list pictures.*/
+
+.footer {
+  padding-bottom: 5%;
+  padding-right: 10%;
+}
+
+.pagination {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  float: right;
+}
+
+.pagination li {
+  display: block;
+  float: left;
+  height: 2em;
+  color: #222222;
+  margin-left: 0.41667em;
+}
+
+.pagination li a {
+  display: block;
+  padding: 0.08333em 0.58333em 0.08333em;
+  color: #999999;
+}
+
+.pagination li:hover a,
+.pagination li a:focus {
+  background: #e6e6e6;
+}
+
+.pagination li.current a {
+  background: #e6e6e6;
+  color: black;
+  font-weight: 600;
+  cursor: default;
+}
