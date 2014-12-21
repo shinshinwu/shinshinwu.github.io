@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anna&#39;s Chunky Bacon and Sweater House</title>
+    <description>Programming and all other random thoughts</description>
+    <link>shinshinwu.github.io/myblog/</link>
+    <atom:link href="shinshinwu.github.io/myblog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 20 Dec 2014 22:17:18 -0800</pubDate>
+    <lastBuildDate>Sat, 20 Dec 2014 22:17:18 -0800</lastBuildDate>
+    <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 20 Dec 2014 09:56:11 -0800</pubDate>
+        <link>shinshinwu.github.io/myblog/jekyll/update/2014/12/20/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">shinshinwu.github.io/myblog/jekyll/update/2014/12/20/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>A Site a Day Challenge</title>
+        <description>&lt;p&gt;Been away from blogging for a while during my time at DBC but I am back! And you would be SOOOOOOO excited to know that you can expect regular blog entries during the 2 weeks break starting this weekend till Jan 5th!&lt;/p&gt;
+
+&lt;p&gt;Today’s blog entry I wanted to declare my project of doing a site a day during my 2 weeks away from DBC!&lt;/p&gt;
+
+&lt;p&gt;I have thought quite hard on what should be my study plan during the break. Going back to treehouse and codeschool again? Possibly. But during my try prior to start of Phase 1, it wasn’t as helpful as I expected. I think online tutorials stops being helpful after certain point. Ok not stops, but definitly diminishing marginal return. Also, it is quite hard for me to focusing on a lecture more than an hour. My ADD starts to kick in and my head is filled with randoms thoughts for activities.&lt;/p&gt;
+
+&lt;p&gt;Through DBC I learned I perform really well when given a specific task and a specific timeframe. Thus I want to recreate that model and choose things I could build within the time frame of a day and see the instant result. I had so much fun to work through the challenges, now just instead of working through DBC give me, I will define my own learning objectives and projects to help me achieve those.&lt;/p&gt;
+
+&lt;p&gt;Things I want to focus on enhancing and learning to build are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;jQuery and jQuery UI&lt;/li&gt;
+  &lt;li&gt;D3&lt;/li&gt;
+  &lt;li&gt;Angular JS&lt;/li&gt;
+  &lt;li&gt;CSS or JavaScript animation&lt;/li&gt;
+  &lt;li&gt;Web Graphics&lt;/li&gt;
+  &lt;li&gt;Building storefront or using APIs such as shopify&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hence I have started a list to compile a list of potential site ideas that I could build by utilizing above knowledge and practices. And I AM SOOOOO EXCITED to get started!! Last night literally I had such a hard time to fall sleep cause all I can think of are simple doable but cool site ideas. Spoiler alert: sheep counter is one of them. Yup I was thinking of building that into a webpage even when I was trying to count sheep to fall sleep. Guess I am beyong saving.&lt;/p&gt;
+
+&lt;p&gt;There will be sites that will take less than half a day to build and site that will take more than a day. But I think this is a good opportunity to practive time and project management to average out a site a day. Even taking time off as consideration. I can finish more than 1 site in a day but will keep the site release pace to one a day. Not to mention I will finally have something to showcase in my portfolio page!&lt;/p&gt;
+
+&lt;p&gt;I intend on pushing all sites to Github so they are all open source project. Also for each site I will create a blog entry detailing how I approached, cool things I learned and painful struggle I might have (hopefully won’t be TOO many of them, though unlikely). However, before I start anything, first thing to do this weekend is to update my blog page so it can dynamically view through posts so I don’t have to hardcode the pages which is so silly!&lt;/p&gt;
+
+&lt;p&gt;Hope you are just as excited as me to see my progress and there will be quite some fun games for you to play!!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://pixelatedbrains.com/wp-content/uploads/2014/07/super-excited.gif&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Dec 2014 16:00:11 -0800</pubDate>
+        <link>shinshinwu.github.io/myblog/challenge/programming/2014/12/15/a-site-a-day-challenge.html</link>
+        <guid isPermaLink="true">shinshinwu.github.io/myblog/challenge/programming/2014/12/15/a-site-a-day-challenge.html</guid>
+        
+        
+        <category>challenge</category>
+        
+        <category>programming</category>
+        
+      </item>
+    
+      <item>
+        <title>Asking Good Questions</title>
+        <description>&lt;p&gt;Since I started coding, more so now than ever I realized the importance of asking good questions. Every day when I started studying, endless flow of questions comes to mind. A lot of them will be answered as soon as I finish reading the current chapter. Some of them ligers on. And when I work on code challenge, the terminal often throws me error messages in areas I do not consider have problems in! So after encouters with many question situation, I have concluded the top tips for asking good questions as DBBS (terrible to pronounce I know…) and it stand for:&lt;/p&gt;
+
+&lt;p&gt;1) Do research, 2) Be Specific, 3) Be Thankful, 4) Spread the Wealth.&lt;/p&gt;
+
+&lt;p&gt;More than likely, starting as a web newb, someone else probably have encountered the same or similar problem as you and have posted their questions somewhere. And that leads to my first lesson on asking good questions: DO RESEARCH. Asking a question that you can easily find answers for is a waste of your time and whoever respond to your questions’ time. Start with Google, often you will end up on Stackoverflow with an exact question you have in mind and with bazillion great solutions posted below.&lt;/p&gt;
+
+&lt;p&gt;In the rare occasion that you find yourself in the no man land that no one has encountered your situation before and you couldn’t figure out an answer on any documentation or playing around in terminal. Congratulations, it is time for you to post a question to the grand interweb! Few good places to start is on Twitter (you can post a tweet waiting for others to respond or tweet directly to a knowledgable programmer or community you know) and coders’ heaven: Stack Overflow.&lt;/p&gt;
+
+&lt;p&gt;When posting your question, the principle to keep in mind is: BE SPECIFIC. Tell the audience exactly in what environment you have encountered the problem and the ways you have tried to solve it and how have you failed. It will also help a lot to actually copy and paste the related code snippet for others to take a look at.&lt;/p&gt;
+
+&lt;p&gt;Now your question is out in the universe and some one has extended the hand of god and helped you to solve something you couldn’t after hours of hair pulling in 1 min.&lt;/p&gt;
+
+&lt;p&gt;BE THANKFUL: Remember to say thank you and give them your feedback (if it worked or not etc.) If their answers inspired you and you have discovered some alternative solutions as well, do let them know! This will all help all the other people who will encounter similar issues down the road.&lt;/p&gt;
+
+&lt;p&gt;Last but not least, SPREAD THE WEALTH! If you have a blog, blog about the issue and what you end up doing to resolve it. If you have a twitter, you can tweet about the solution as well. All in all, the internet is an open community. You should always help others if you have received helps from others. Keep the good karma flow!&lt;/p&gt;
+
+&lt;p&gt;Find me on Twitter if you have any questions!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.quickmeme.com/img/48/485f3d3d0ce39b7cdb3bfe38740f6c06cc7c94f725d336945d34c832051b98e9.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Nov 2014 16:00:11 -0800</pubDate>
+        <link>shinshinwu.github.io/myblog/thoughts/2014/11/14/asking-good-questions.html</link>
+        <guid isPermaLink="true">shinshinwu.github.io/myblog/thoughts/2014/11/14/asking-good-questions.html</guid>
+        
+        
+        <category>thoughts</category>
+        
+      </item>
+    
+      <item>
+        <title>Ruby Enumerable - Map</title>
+        <description>&lt;p&gt;Learn how to code with Anna series #3!&lt;/p&gt;
+
+&lt;p&gt;Today we will discuss some infamous Ruby Enumerable methods. Enumerable methods are extremely powerful in Ruby and helps to keep your code short and DRY (Don’t Repeat Yourself), but they can be hard to understand at times.&lt;/p&gt;
+
+&lt;p&gt;Today’s example is .map and .collect methods in Ruby.&lt;/p&gt;
+
+&lt;p&gt;To start off, map and collect are EXACTLY the same method except some people have preference to write one over another because of the names. And what map and collect do is they will iterate through every single element in the array and does something with it. (map and collect can also be used with hashes but keep in consideration to set up the equation to include both keys and values).&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;One easy way to visualize this is to think about mapping things that has been modified in command you have given to a new set. And if you use the .map! method, it will modify the original array (destructive method).&lt;/p&gt;
+
+&lt;p&gt;How is it different than .each method?&lt;/p&gt;
+
+&lt;p&gt;Glad you asked! It can be confusing but one of the most straighforward way of thinking their differences is that .each simply iterate over the array and return the results. And it simply discards the results as soon as it finishes with the operation. .map is different, it runs the block operation and returns a new object with the changes. The new object in turn can be manipulated in other ways you desire. Simply said, with .map you can retrieve the results that with .each you can’t.&lt;/p&gt;
+
+&lt;p&gt;.map is a powerful function as many times it is used in conjunction with may other array and enumerable methods. Another example,&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;1&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;2&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;3&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;4&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;and that is just one simple way to combining map with other methods to produce new desired arrays.&lt;/p&gt;
+
+&lt;p&gt;RINGGGGGGGGG!&lt;/p&gt;
+
+&lt;p&gt;Ok guess that’s the signal today’s class is coming to an end. Hopefully you learned lots in today’s session. If you have any questions, don’t forget to tweet me @cakeisnotreal!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://roflmouse.com/wp-content/uploads/2012/05/funny-gifs-loop.gif&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 09 Nov 2014 16:00:11 -0800</pubDate>
+        <link>shinshinwu.github.io/myblog/ruby/2014/11/09/ruby-enumerable-map.html</link>
+        <guid isPermaLink="true">shinshinwu.github.io/myblog/ruby/2014/11/09/ruby-enumerable-map.html</guid>
+        
+        
+        <category>ruby</category>
+        
+      </item>
+    
+      <item>
+        <title>The Savior: Regular Expression</title>
+        <description>&lt;p&gt;Attended the talk on “Stuff everybody should know” by the CTO of npmjs Laurie Voss and it was very beneficial. One of the “stuff” he pointed out that web newbies such as the grads of coding bootcamps should know is RegEx. So, here is a blog post on that!&lt;/p&gt;
+
+&lt;p&gt;So what is Regular Expression? Conflicted with its name, regular expression is NOT so regular as it is not very self-explainatory just by the looks of it. It is a pattern describing a certain amount of text. It is very useful in data validation and searching. For example, one of the data field your website is collecting is user’s email addresses. However, you want to validate it that it follows certain pattern such as (for some reason) it has to be 12 charactors long and there should be a number in front of the @ sign.&lt;/p&gt;
+
+&lt;p&gt;Yes, there are if else or switch statements you can write to validate that. But think about the large loop you will have to write to complete that. In this case, writing a regular expression to validate your date is the most efficient way to go. Some of regex you probably have seen in ruby codes are \d, \w, \s and such. So here we will make a cheetsheat on what they mean.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;matches&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;single&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;character&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;digit&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;w&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;matches&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;word character&amp;quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alphanumeric&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;characters&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plus&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;underscores&lt;/span&gt;
+&lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;matches&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;whitespace&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;character&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;includes&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tabs&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;breaks&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dot&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;matches&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;single&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;character&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;except&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;characters&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;By now you probably have also seen some characters floating around in regex. Special characters such as backslash(), dollar sign($), asterisk(*) etc all means different things and they are refered to as metacharacters. If you want to just use any of those characters as a literal in a regex, you will need to escape them with a backslash. Such as “1+1” will need to be entered as “1+1”. Below you will see anchors in work.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Anchors&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;any&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;characters&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;they&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;matches&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;While&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;matches&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;For&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;matches&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;first&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bomatches&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;second&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This blog entry is only meant to start the conversation on regex as it is a vast topic (and if were easy to understand, then everybody would understand). Below are two good reference if you want to learn more on the topic:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://msdn.microsoft.com/en-us/library/az24scfc(v=vs.110).aspx&quot;&gt;Microsoft Developer Network RegEx document&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.freeformatter.com/regex-tester.html&quot;&gt;RegEx generator with a good reference list&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Later when I have more time aka actually know better about what I am talking about I will write another entry on the topic!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://troll.me/images/the-most-interesting-man-in-the-world/i-dont-cry-often-but-when-i-do-its-when-figuring-out-regular-expressions.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 07 Nov 2014 09:56:11 -0800</pubDate>
+        <link>shinshinwu.github.io/myblog/ruby/2014/11/07/regular-expression.html</link>
+        <guid isPermaLink="true">shinshinwu.github.io/myblog/ruby/2014/11/07/regular-expression.html</guid>
+        
+        
+        <category>ruby</category>
+        
+      </item>
+    
+      <item>
+        <title>Fighting Conflicts</title>
+        <description>&lt;p&gt;DBC culture blog topics are getting increasingly personal…&lt;/p&gt;
+
+&lt;p&gt;By now, especially few years into the work force, all of us should have dealt with conflicts and shame one way or another. Conflicts in the personal space tend to be much more intense because they are personal while confilicts in professional space can happen more often but usually not as personal.&lt;/p&gt;
+
+&lt;p&gt;The most recent conflict happened to me at my fairly new position with the bank. I had started a new position dealing with corporate communication matters in June. Though at the time I already know my determined intention to leave and pursue coding as a career, I had every intention to do the best I can and push the department as far as I could.&lt;/p&gt;
+
+&lt;p&gt;Within a month of me starting they finally filled the position of my manager. While she is a very very sweet lady and to date probably still one of the nicest person I have met. We certainly had differences in our working styles and schedules.&lt;/p&gt;
+
+&lt;p&gt;One thing I struggeled the most, not much because of her, but because of the job description in general is, in such large corporation as the one I was working at, getting approvals is an insane process. You will have to get layers and layers of approvals for one simple communication piece you are drafting. This can create problems when all your approvers have very strong personalities and different personal preference. There have been few times I proposed changes to the communication pieces in what I consider is the best way of spreading the news. But they were overlooked by my manager. I have brought it up to her twice and the response has been to better fitted with the leadership tone. After few times, it gets fairly discouraging so I stopped providing my suggestions unless there are major issues. And I started to doubt my ability, not in general, but my ability and fit for the position.&lt;/p&gt;
+
+&lt;p&gt;Looking at the compass of shame, I think it was the perfect example of withdrawl. This did not help to build a more productive environment and certainly did not improve my sense of fulfillment at my job. However, that did serve as my last straw in my determination to leave the financial service industry in general. I am tired of endless inefficient processes and the ridiculous lengh of time to get anything done. Thus I prefer to take matter into my own hand and build things I can see the results of immediately.&lt;/p&gt;
+
+&lt;p&gt;So now, here I am DBC!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://staffingtalk.com/static/upload%5C2014%5C10%5C16/1413477041_.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 06 Nov 2014 16:00:11 -0800</pubDate>
+        <link>shinshinwu.github.io/myblog/thoughts/2014/11/06/fighting-conflicts.html</link>
+        <guid isPermaLink="true">shinshinwu.github.io/myblog/thoughts/2014/11/06/fighting-conflicts.html</guid>
+        
+        
+        <category>thoughts</category>
+        
+      </item>
+    
+      <item>
+        <title>Cheatsheet: What is Javascript Prototype?</title>
+        <description>&lt;p&gt;All JavaScript object inherites proporties from Object prototype. From example:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;profession&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gender&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;profession&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;profession&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gender&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gender&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;alive&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Here are some its most popular methods and their usage. For example:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;mike&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Mike&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;mike&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gender&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;undefined&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;mike&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;alive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now we will define a new object Developer.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Developer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;language&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;speak&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;I love writing in &amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;language&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;!&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;Developer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Developer&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mike&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Developer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Ruby&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This way, if we call mike.speak(); it will return “I love writing in Ruby!” and if we call mike.profession = “Developer”; This happens because mike as a developer, he inherited the same properties from Person.&lt;/p&gt;
+
+&lt;p&gt;Now we will jump into a popular method property of prototypes. The method: hasOwnProperty(). This method return a boolean value to see if the object have property pass to the parameter. Some examples:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;mike&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;hasOwnProperty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;language&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;mike&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;hasOwnProperty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;alive&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Hope this cheat sheet shed some light on JavaScript prototypes and what are some ways you can put it into use.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://2.bp.blogspot.com/-zVNN8K11FW4/UNt_3e096DI/AAAAAAAAAFM/seH7qdbVxOo/s1600/the-most-interesting-man-in-the-world-meme-generator-i-don-t-always-make-sense-but-when-i-do-i-don-t-c9460e.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 06 Nov 2014 09:56:11 -0800</pubDate>
+        <link>shinshinwu.github.io/myblog/javascript/2014/11/06/javascript-cheat-sheet.html</link>
+        <guid isPermaLink="true">shinshinwu.github.io/myblog/javascript/2014/11/06/javascript-cheat-sheet.html</guid>
+        
+        
+        <category>javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>Arrays vs. Hashes</title>
+        <description>&lt;p&gt;Have you ever played blocks when you were young? (Or maybe you still are, no judgement here, they are actually quite intellectual stimulating.) Now think of when you are done playing and putting all your blocks into a box where it can be safely kept. Now think of the box as array, and the blocks inside are the varies elements that makes up an array! Now arrays can contain almost anything (strings, number, boolean etc) you throw in there, it just takes them and safekeep it for you until you need something from it.&lt;/p&gt;
+
+&lt;p&gt;Everything in an array is assigned an index number depending on the order they were put into the array. And those index number become the unique identifier of those elements. When you need one particular element from the array, you have to call it by its index number to access it. For example:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;this&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;is&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;just&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;another&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;155&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;awesome&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;day&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If you are only trying to pull out “awsome” from your array table, you will enter array[6]. Because if you count all the entries prior tp “awesome”, there are 6 elememts, and the first element have the index starting at 0 (“this”), and second element have the index of 1 (“is”) and so on.&lt;/p&gt;
+
+&lt;p&gt;Now hashes.&lt;/p&gt;
+
+&lt;p&gt;The best way of explaining the relationship of array and hashes is to understand hashes as associative arrays. All elements in hashes are in certain orders as well. However, instead of referring to the elements in arrays according to their automatically assigned index number, you tell how the elements in hashes should be identified as. For example:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;hash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;s1&quot;&gt;&amp;#39;candy&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;sour patch&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s1&quot;&gt;&amp;#39;fruit&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;apple&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s1&quot;&gt;&amp;#39;book&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;outliers&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s1&quot;&gt;&amp;#39;number&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;33&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You will refer to ‘sour patch’ by calling hash[‘candy’] and the number 33 by calling hash[number]. There are different benefits of using arrays and hashes, the biggest question you should consider before deciding on using hash or array is that is it important for each elements in the container to have its unique identifier and would refer to the element by counting its index location be a tideous task.&lt;/p&gt;
+
+&lt;p&gt;If you still have questions, feel free to call me out on Twitter! Happying hashing!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.tumblr.com/722fa9de49f7fbbc18e86bfec0013ed0/tumblr_inline_nbxbfq1QXZ1rnvwt1.gif&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Nov 2014 16:00:11 -0800</pubDate>
+        <link>shinshinwu.github.io/myblog/ruby/2014/11/04/arrays-vs-hashes.html</link>
+        <guid isPermaLink="true">shinshinwu.github.io/myblog/ruby/2014/11/04/arrays-vs-hashes.html</guid>
+        
+        
+        <category>ruby</category>
+        
+      </item>
+    
+      <item>
+        <title>Values? $$?</title>
+        <description>&lt;p&gt;Pheww, DBC give me a VAST list of values to choose from… this is difficult.&lt;/p&gt;
+
+&lt;p&gt;Looking through the list, there are so many I could pick out that is critical to my happiness in life, such as accomplishment, family and friendship, close relationships (now think of it, interesting they didn’t have love on the list), ambitions. meaningful work etc.&lt;/p&gt;
+
+&lt;p&gt;This is getting to a more personal side, but the one that I ultimately have to pick out is Adventure. And I am trying my hardest to live it up to 5.&lt;/p&gt;
+
+&lt;p&gt;In the past few years I have been floating around pretty frequently from Boston to London, New York to (god forbidden) Buffalo, now to San Francisco. I am always looking for a sense of adventure. I have to try something new every year or even every couple months or so. Both in personal life and career wise. This certainly have created some difficult personal situations. I don’t have much friends I have grown up with since I am constantly moving and it is difficult to keep in touch with so many good people I have met for various length along the road. Keeping a relationship is difficult, thus far I still haven’t managed to have a relationship lasted longer than a year. They inevitably end when I move.&lt;/p&gt;
+
+&lt;p&gt;But I can’t deny who I am and what I want from life. Which to me right now is new experiences. I CRAVE for the sense of adventurism. The worst fear I have is to live the same life every day and know exactly where I will be next year, the year after and the year after that. That petrifies me more than anything, more than my love for my friends, more than my love for my exes. But I can’t change who I am and this undying curiousity inside of me. I think I have this little nomad live inside of me and there are many days I want to pick up a backpack and just be on the road floating for a while or never return while I am on the road traveling.&lt;/p&gt;
+
+&lt;p&gt;Thus I decided to quit my very comfortable job with a major bank, broke up with my boyfriend, waved goodbye to all my good friends in New York and packed up my bags to be on the move again.&lt;/p&gt;
+
+&lt;p&gt;San Francisco, see you in 3 days.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Nov 2014 17:00:11 -0700</pubDate>
+        <link>shinshinwu.github.io/myblog/programming/thoughts/2014/11/01/values.html</link>
+        <guid isPermaLink="true">shinshinwu.github.io/myblog/programming/thoughts/2014/11/01/values.html</guid>
+        
+        
+        <category>programming</category>
+        
+        <category>thoughts</category>
+        
+      </item>
+    
+      <item>
+        <title>JavaScript or Ruby?</title>
+        <description>&lt;p&gt;My experience with both languages are bit different. I started learning js a lot earlier than ruby and have always been a big fan. Javascript is a huge powerful tool and contributed as a very big component for the front end developement.&lt;/p&gt;
+
+&lt;p&gt;Because of the recent years of popularity of js language, there are soooooo many plug-ins and js library very very talented developers have developed to expand the js universe. jQuery is AMAZING if you haven’t tried it out yourself, it makes a lot of common website interactivity tasks so easy and achieveable with one simple line of command. Backbone js and angular js are another two really hot js library right now also and again helps with website layout and constructing a complication full features website a lot easier and less time consuming. Ultimately, the goal for developers is to write less code but accomplish more.&lt;/p&gt;
+
+&lt;p&gt;Unlike many extensions and libraries that accompanies JavaScript, Ruby’s best buddy is Rails. In DBC phase 0 we haven’t touched on much of the subject yet, but with my some personal testing and initial learning on the topic, rails is amazing. It makes a RoR generated website so easy to modify and manage.&lt;/p&gt;
+
+&lt;p&gt;Though js is a front end language (though with node it can be used to manipulate server end as well) while ruby is a back end language. They share a lot similarities. Both are object-oriented languages, which means they treat (almost) everything as an object. Ruby and js biggest difference in my perspective is the syntax. Ruby is a lot cleaner in terms of it can separate code according to space and lines versus js you have to wrap everything in brackets. However, a lot of the logic functions in ruby and js are very similar, such as for, while loops, if else statements and they seperate objects by string, number, and boolean values.&lt;/p&gt;
+
+&lt;p&gt;The biggest difference I personally think seperate the two is their objective. Ruby is designed to reside on the back end and interact with the sever end versus JavaScript is designed for the front end development and to interact with the user end (browser). However with many tools and plug ins nowadays the seperation seems to become more and more blurred as both can have trenmendous effects on both front and back end development.&lt;/p&gt;
+
+&lt;p&gt;There are 2 differences between Proc and lambda and though they are relatively minor, they can make a difference when writing code at times.&lt;/p&gt;
+
+&lt;p&gt;Fun fact of the day: did you know that JavaScript actually have absolutely no relationships with Java? Js was initially named LiveScript but during the time Java was so popular they renamed to JavaScript to ride on its popularity. Examine nowadays, JavaScript is more widely used than Java, look how the table turned!&lt;/p&gt;
+
+&lt;p&gt;And anyone who have worked with js can feel this pain:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.developermemes.com/wp-content/uploads/2014/07/Wastes-2-Hours-Debugging-Broken-Javascript-Missing-A-Curly-Brace-Developer-Meme.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Nov 2014 17:00:11 -0700</pubDate>
+        <link>shinshinwu.github.io/myblog/ruby/2014/11/01/javascript-vs-ruby.html</link>
+        <guid isPermaLink="true">shinshinwu.github.io/myblog/ruby/2014/11/01/javascript-vs-ruby.html</guid>
+        
+        
+        <category>ruby</category>
+        
+      </item>
+    
+  </channel>
+</rss>
