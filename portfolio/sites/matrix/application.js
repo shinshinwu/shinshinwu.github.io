@@ -65,6 +65,9 @@ $(document).ready(function() {
 
     navigator.geolocation.getCurrentPosition(successCallback,errorCallback,options);
 
+    console.log(city);
+    console.log(state);
+
     $(".matrix-message").typed({
       strings: ["   wAKe,", "   Wake up, Neo...", "Happy " + dayOfWeek, "   The Matrix has you in " + city + ", " + state, "   Follow the white rabbit.", "   Knock, knock, Neo.", ""],
       typeSpeed: 80,
