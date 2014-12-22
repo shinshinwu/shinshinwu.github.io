@@ -23,8 +23,12 @@ $(document).ready(function() {
         var data = JSON.parse(request.responseText);
         var address = data.results[0];
         console.log(address);
-        city += address.address_components[3].long_name; //city
+        console.log(address_components[3].long_name);
+        console.log(address.address_components[5].long_name);
+        city += address.address_components[3].long_name;
+        console.log(city); //city
         state += address.address_components[5].long_name; //state
+        console.log(state);
         console.log(address.formatted_address);
         }
       };
