@@ -113,6 +113,26 @@ h1 {
   margin-bottom: 25px;
 }
 
+h3 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  margin-top: -130px;
+}
+
+h3 a {
+  text-decoration: none;
+}
+
+h3 a:hover,
+h3 a:active,
+h3 a:visited {
+  text-decoration: none;
+  color: #738f96;
+
+}
+
 .container {
   padding-top: 13%;
   display: block;
