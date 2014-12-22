@@ -84,7 +84,7 @@ $(document).ready(function() {
 
       var options = {
         enableHighAccuracy: true,
-        timeout: 1000,
+        timeout: 10000,
         maximumAge: 0
       };
 
