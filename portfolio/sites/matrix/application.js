@@ -55,7 +55,8 @@ $(document).ready(function() {
           var data = JSON.parse(request.responseText);
           var address = data.results[0];
           console.log(address);
-          console.log(address.city);
+          console.log(address.address_components[3].long_name);
+          console.log(address.address_components[5].long_name);
           console.log(address.formatted_address);
           }
         };
