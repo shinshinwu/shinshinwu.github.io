@@ -1,0 +1,108 @@
+/* Reset & Basic style */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+/*==========================================*/
+
+body {
+  background-image: url(imgs/matrix1.gif);
+  background-repeat: repeat;
+}
+
+.wrapper {
+  margin: 0 auto;
+  margin-top: 200px;
+  opacity: 0.9;
+  background-color: black;
+  border-radius: 25px;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+}
+
+.typed-cursor{
+    opacity: 1;
+    color: white;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.matrix-message {
+  margin-top: 25px;
+  color: white;
+  text-align: center;
+  font-family: 'VT323', sans-serif;
+  font-size: 35px;
+  text-shadow: 0 0 0.2em #2BCC3D, 0 0 0.2em #2BCC3D,
+        0 0 0.2em #2BCC3D,0 0 0.2em #2BCC3D,0 0 0.2em #2BCC3D;
+}
+
+/*.matrix-message:after {
+  box-shadow: -2px 0 0px rgba(0, 0, 225, 0.4), -1px 0 3px rgba(103, 171, 236, 0.6), 1px 0 4px rgba(69, 112, 204, 0.5);
+  -webkit-animation: flicker 0.1s steps(2, start) infinite, ready 1s steps(2, start) 25s infinite;
+}*/
+
+.list {
+  display: none;
+  margin: 0 auto;
+  margin-top: 200px;
+  width: 150px;
+  height: 100px;
+  opacity:0.8;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-left: 25%;
+  display: inline-block;
+  text-align: center;
+  font-family: 'VT323', sans-serif;
+  font-size: 35px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+h3 a,
+h3 a:before,
+h3 a:visited,
+h3 a:hover {
+  text-decoration: none;
+  color: black;
+}
