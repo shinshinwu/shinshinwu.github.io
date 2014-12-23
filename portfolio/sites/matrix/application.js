@@ -4,6 +4,7 @@ $(document).ready(function() {
 
   var dayOfWeekIndex = (new Date()).getDay();
 
+  // get days of the week
   var dayOfWeek = weekdays[dayOfWeekIndex];
 
   var city = "";
@@ -23,10 +24,12 @@ $(document).ready(function() {
         var data = JSON.parse(request.responseText);
         var address = data.results[0];
         console.log(address);
+        // grab city name
         console.log(address.address_components[3].long_name);
+        // grab state name
         console.log(address.address_components[5].long_name);
         city += address.address_components[3].long_name;
-        console.log(city); //city
+        console.log(city);
         state += address.address_components[5].long_name; //state
         console.log(state);
         console.log(address.formatted_address);
