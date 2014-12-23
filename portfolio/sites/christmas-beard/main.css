@@ -30,3 +30,32 @@ vertical-align: baseline;
   width: 500px;
   height: 500px;
 }
+
+h1,
+.direction,
+.footer {
+  font-family: 'Mountains of Christmas', cursive;
+  color: #FE0000;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+}
+
+.options {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.even {
+  color: #008001;
+}
+
+.direction ol li {
+  float: left;
+  display: inline;
+}
