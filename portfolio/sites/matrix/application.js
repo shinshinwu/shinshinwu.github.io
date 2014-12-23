@@ -71,6 +71,7 @@ $(document).ready(function() {
     $(".matrix-message").typed({
       strings: ["   wAKe,", "   Wake up, Neo...", "Happy " + dayOfWeek, "   The Matrix has you in " + city + ", " + state, "   Follow the white rabbit.", "   Knock, knock, Neo.", ""],
       typeSpeed: 80,
+      startDelay: 5000,
       backDelay: 1200,
       loop: false,
       loopCount: false,
@@ -81,5 +82,8 @@ $(document).ready(function() {
         $('.list').fadeIn(1000);
       } //load in the rabbit image and home link
     });
+
+    console.log(city);
+    console.log(state);
 
 });
