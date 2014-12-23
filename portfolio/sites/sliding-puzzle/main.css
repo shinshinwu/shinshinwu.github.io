@@ -39,6 +39,7 @@ a {
   text-decoration: none;
 }
 
+button a,
 button a:active,
 button a:visited {
   color: white;
