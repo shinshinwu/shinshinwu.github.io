@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="main.css" />
+   <link rel="shortcut icon" href="../../../images/favicon.png" />
+   <title>Sliding Minion Puzzles!</title>
+
+</head>
+
+<body>
+
+  <div id="slider">
+    <form>
+      <lable>Easy</lable>
+      <input type="range" id="scale" value="4" min="3" max="5" step="1">
+      <label>Hard</label>
+    </form>
+    <br>
+  </div>
+  <div id="main" class="main">
+    <canvas id="puzzle" width="480px" height="480px"></canvas>
+  </div>
+
+
+
+  <script type='text/javascript' src='application.js'></script>
+</body>
+
+</html>
+
+<!-- MVP
+1) refactor code
+2) let user to pick image to load
+3) instead of sliders, make them into buttons users can pick
+
+Add-on
+1) add timer and move counter
+2) add some nice styles
