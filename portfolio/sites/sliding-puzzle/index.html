@@ -5,24 +5,40 @@
    <meta charset="utf-8">
    <link rel="stylesheet" type="text/css" href="main.css" />
    <link rel="shortcut icon" href="../../../images/favicon.png" />
+   <link href='http://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
    <title>Sliding Minion Puzzles!</title>
 
 </head>
 
 <body>
 
+  <h1><a href="http://shinshinwu.github.io/portfolio/sites/sliding-puzzle/index.html">Sliding Minion Puzzles!</a></h1>
+  <h2>Choose your difficulty according to the slider</h2>
+  <h2>You can also click on the "Use My Own Image" button to input your own image link!(Image will be resized to 480px x 480px size)</h2>
+
+  <div class="button">
+    <button id="create-own">Use My Own Image</button>
+    <button id="answer"><a href="imgs/minions.jpg" target="_blank">See Answer!</a></button>
+  </div>
+
   <div id="slider">
     <form>
       <lable>Easy</lable>
-      <input type="range" id="scale" value="4" min="3" max="5" step="1">
+      <input type="range" id="scale" value="3" min="3" max="5" step="1">
       <label>Hard</label>
     </form>
     <br>
   </div>
-  <div id="main" class="main">
-    <canvas id="puzzle" width="480px" height="480px"></canvas>
-  </div>
 
+  <h3>Moves: <div id="counter">0</div></h3>
+
+
+<div id="main" class="main">
+  <canvas id="puzzle" width="480px" height="480px"></canvas>
+</div>
+
+<h4>Created By: <a href="http://shinshinwu.github.io" target="_blank">Anna Wu</a></h4>
 
 
   <script type='text/javascript' src='application.js'></script>

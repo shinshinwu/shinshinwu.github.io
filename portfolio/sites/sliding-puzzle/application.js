@@ -1,9 +1,19 @@
+
 var context = document.getElementById('puzzle').getContext("2d");
 
 // load image
 var img = new Image();
-img.src = 'https://s-media-cache-ak0.pinimg.com/736x/45/55/e2/4555e279f43b39aaec1f11ca1a0092cc.jpg';
+img.src = 'imgs/minions.jpg';
 img.addEventListener('load', drawTiles, false);
+
+// add funtion to load custom image
+function loadImg() {
+  var imgLink = prompt("Please enter the full url of your desired image");
+  img.src = imgLink;
+}
+
+var button = document.getElementById('create-own')
+button.addEventListener("click", loadImg, false);
 
 // setting up puzzle board according to difficulty level
 var boardSize = document.getElementById('puzzle').width;
@@ -19,6 +29,8 @@ var emptyLoc = new Object;
 emptyLoc.x = 0;
 emptyLoc.y = 0;
 
+var counter = 0;
+
 var solved = false;
 
 var boardParts = new Object;
@@ -32,6 +44,8 @@ document.getElementById('scale').onchange = function(){
 };
 
 document.getElementById('puzzle').onclick = function(e) {
+  counter += 1;
+  document.getElementById("counter").innerHTML = counter;
   clickLoc.x = Math.floor((e.pageX - this.offsetLeft) / tileSize);
   clickLoc.y = Math.floor((e.pageY - this.offsetTop) / tileSize);
   if (distance(clickLoc.x, clickLoc.y, emptyLoc.x, emptyLoc.y) == 1) {
@@ -42,6 +56,8 @@ document.getElementById('puzzle').onclick = function(e) {
     setTimeout(function() {alert("You solved it!");}, 500);
   }
 };
+
+// set new random board
 
 function setBoard() {
   boardParts = new Array(tileCount);
@@ -75,11 +91,6 @@ function drawTiles(){
 function distance(x1, y1, x2, y2){
   return Math.abs(x1 - x2) + Math.abs(y1 - y2);
 };
-
-// document.getElementById('puzzle').onmousemove = function(e) {
-//   clickLoc.x = Math.floor((e.pageX - this.offsetLeft) / tileSize)
-//   clickLoc.y = Math.floor((e.pageY - this.offsetTop) / tileSize);
-// };
 
 function slideTile(toLoc, fromLoc) {
   if (!solved) {
