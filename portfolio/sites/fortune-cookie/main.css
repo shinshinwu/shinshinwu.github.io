@@ -22,18 +22,102 @@ vertical-align: baseline;
 /*==========================================*/
 
 #fortune {
-  position: absolute;
+  position: relative;
   margin-left: 85px;
   display: inline;
   z-index: -1;
+  opacity: 0.9;
 }
 
 #cookie {
   position: absolute;
   display: inline;
   z-index: 2;
+  opacity: 0.9;
 }
 
 .box {
   transition-duration: 2s;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 300;
+  color: #3d464d;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+
+/*site title color change*/
+
+.animate1 {
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 60s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+.animate2 {
+  color: #1139ff;
+  background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hues 60s infinite linear;
+}
+
+@-webkit-keyframes hues {
+  from {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(0deg);
+  }
+}
+
+h1,
+.wrapper,
+h3 {
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+}
+
+#text {
+  display: none;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: -8%;
+  width: 450px;
+  height: 130px;
+  z-index: 5;
+}
+
+#text h3 {
+  display: inline;
+}
+
+.footer {
+  margin-top: 140px;
 }
