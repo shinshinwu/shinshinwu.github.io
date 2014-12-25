@@ -42,6 +42,20 @@ $(document).ready(function() {
       var x = position.coords.latitude;
       var y = position.coords.longitude;
       displayLocation(x,y);
+      $(".matrix-message").typed({
+        strings: ["   wAKe,", "   Wake up, Neo...", "Happy " + dayOfWeek, "   The Matrix has you in " + city + ", " + state, "   Follow the white rabbit.", "   Knock, knock, Neo.", ""],
+        typeSpeed: 80,
+        startDelay: 5000,
+        backDelay: 1200,
+        loop: false,
+        loopCount: false,
+        showCursor: true,
+        cursorChar: "|",
+        callback: function(){
+          $('.wrapper').fadeOut(100);
+          $('.list').fadeIn(1000);
+        } //load in the rabbit image and home link
+      });
     };
 
   var errorCallback = function(error){
@@ -58,6 +72,20 @@ $(document).ready(function() {
           break;
       }
       console.log(errorMessage);
+      $(".matrix-message").typed({
+        strings: ["   wAKe,", "   Wake up, Neo...", "Happy " + dayOfWeek, "   The Matrix has you.", "   Follow the white rabbit.", "   Knock, knock, Neo.", ""],
+        typeSpeed: 80,
+        startDelay: 5000,
+        backDelay: 1200,
+        loop: false,
+        loopCount: false,
+        showCursor: true,
+        cursorChar: "|",
+        callback: function(){
+          $('.wrapper').fadeOut(100);
+          $('.list').fadeIn(1000);
+        } //load in the rabbit image and home link
+      });
     };
 
     var options = {
@@ -67,26 +95,5 @@ $(document).ready(function() {
     };
 
     navigator.geolocation.getCurrentPosition(successCallback,errorCallback,options);
-
-    console.log(city);
-    console.log(state);
-
-    $(".matrix-message").typed({
-      strings: ["   wAKe,", "   Wake up, Neo...", "Happy " + dayOfWeek, "   The Matrix has you in " + city + ", " + state, "   Follow the white rabbit.", "   Knock, knock, Neo.", ""],
-      typeSpeed: 80,
-      startDelay: 5000,
-      backDelay: 1200,
-      loop: false,
-      loopCount: false,
-      showCursor: true,
-      cursorChar: "|",
-      callback: function(){
-        $('.wrapper').fadeOut(100);
-        $('.list').fadeIn(1000);
-      } //load in the rabbit image and home link
-    });
-
-    console.log(city);
-    console.log(state);
 
 });
