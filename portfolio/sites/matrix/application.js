@@ -23,16 +23,24 @@ $(document).ready(function() {
       if(request.readyState == 4 && request.status == 200){
         var data = JSON.parse(request.responseText);
         var address = data.results[0];
-        console.log(address);
-        // grab city name
-        console.log(address.address_components[3].long_name);
-        // grab state name
-        console.log(address.address_components[5].long_name);
         city += address.address_components[3].long_name;
         console.log(city);
         state += address.address_components[5].long_name; //state
         console.log(state);
-        console.log(address.formatted_address);
+        $(".matrix-message").typed({
+          strings: ["   wAKe,", "   Wake up, Neo...", "Happy " + dayOfWeek, "   The Matrix has you in " + city + ", " + state, "   Follow the white rabbit.", "   Knock, knock, Neo.", ""],
+          typeSpeed: 80,
+          startDelay: 1500,
+          backDelay: 1200,
+          loop: false,
+          loopCount: false,
+          showCursor: true,
+          cursorChar: "|",
+          callback: function(){
+            $('.wrapper').fadeOut(100);
+            $('.list').fadeIn(1000);
+          } //load in the rabbit image and home link
+        });
         }
       };
       request.send();
@@ -42,20 +50,6 @@ $(document).ready(function() {
       var x = position.coords.latitude;
       var y = position.coords.longitude;
       displayLocation(x,y);
-      $(".matrix-message").typed({
-        strings: ["   wAKe,", "   Wake up, Neo...", "Happy " + dayOfWeek, "   The Matrix has you in " + city + ", " + state, "   Follow the white rabbit.", "   Knock, knock, Neo.", ""],
-        typeSpeed: 80,
-        startDelay: 5000,
-        backDelay: 1200,
-        loop: false,
-        loopCount: false,
-        showCursor: true,
-        cursorChar: "|",
-        callback: function(){
-          $('.wrapper').fadeOut(100);
-          $('.list').fadeIn(1000);
-        } //load in the rabbit image and home link
-      });
     };
 
   var errorCallback = function(error){
@@ -75,7 +69,7 @@ $(document).ready(function() {
       $(".matrix-message").typed({
         strings: ["   wAKe,", "   Wake up, Neo...", "Happy " + dayOfWeek, "   The Matrix has you.", "   Follow the white rabbit.", "   Knock, knock, Neo.", ""],
         typeSpeed: 80,
-        startDelay: 5000,
+        startDelay: 3000,
         backDelay: 1200,
         loop: false,
         loopCount: false,
