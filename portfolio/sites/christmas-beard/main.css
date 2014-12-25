@@ -21,17 +21,10 @@ vertical-align: baseline;
 
 /*==========================================*/
 
-.beard {
-  float: left;
-}
-
-.ornaments {
-  float: right;
-  width: 500px;
-  height: 500px;
-}
+/*home page style*/
 
 h1,
+h3,
 .direction,
 .footer {
   font-family: 'Mountains of Christmas', cursive;
@@ -41,14 +34,40 @@ h1,
   text-align: center;
 }
 
+h1 {
+  padding: 25px;
+  font-weight: bold;
+}
+
 .options {
   display: block;
   margin: 0 auto;
+  margin-bottom: 5%;
+}
+
+.options a {
+  opacity: 0.7;
+}
+
+.options a:hover {
+  opacity: 1;
+}
+
+.options img {
+  width: 40%;
+  margin-left: 5%;
+  vertical-align: middle;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
+}
+
+h3 .even,
+h1 .even,
+.footer .even {
+  display: inline;
 }
 
 .even {
@@ -56,6 +75,49 @@ h1 {
 }
 
 .direction ol li {
+  margin-left: 5%;
+}
+
+.odd,
+.even {
+  display: block;
+  text-align: center;
+}
+
+.wrapper {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.direction,
+.options {
+  display: block;
+}
+
+.footer {
+  margin-top:  6%;
+}
+
+
+/*beard and mustache style*/
+
+.beard,
+.mustache {
   float: left;
-  display: inline;
+  margin-left: 40px;
+  margin-top: 25px;
+}
+
+.ornaments {
+  float: right;
+  margin-top: 25px;
+  width: 500px;
+  height: 500px;
+  margin-right: 50px;
+}
+
+h3 {
+  margin-top: 50px;
+  font-weight: bold;
 }

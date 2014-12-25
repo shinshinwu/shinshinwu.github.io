@@ -1,0 +1,75 @@
+/* Reset & Basic style */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+/*==========================================*/
+
+.field {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+#pole-one,
+#pole-two,
+#pole-three {
+  position: relative;
+  opacity: 0.6;
+  display: inline-block;
+  background-color: #6679a8;
+  width: 30%;
+  height: 30%;
+  margin: 1%;
+  z-index: -1;
+}
+
+#disks {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  z-index: 2;
+  margin-left: 15%;
+}
+
+.first,
+.second,
+.third {
+  vertical-align: top;
+  height: 20%;
+  display: block;
+  margin: 0 auto;
+}
+
+.first {
+  margin-top: 316%;
+  width: 20%;
+  background-color: #ff0000;
+}
+
+.second {
+  width: 40%;
+  background-color: #29d8c4;
+}
+
+.third {
+  width: 80%;
+  background-color: #595456;
+}
