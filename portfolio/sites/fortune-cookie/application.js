@@ -34,18 +34,29 @@ $(document).ready(function() {
   "Your fortune is as sweet as a cookie.",
   "Stop wishing. Start doing.",
   "Don't pursue happiness - create it.",
-  "I think, you ate your fortune while you were eating your cookie"
+  "I think, you ate your fortune while you were eating your cookie",
+  "How much deeper would the ocean be without sponges?",
+  "I cannot help you, for I am just a cookie",
+  "Oops...Wrong cookie",
+  "Try again.",
+  "The harder the fall, the higher the bounce.",
+  "The best if yet to be.",
+  "People do not fail...they give up trying.",
+  "Have Fun."
   ];
+
+  function appendText() {
+    $('#text').html("<h3'>" + fortunes[Math.ceil(Math.random() * fortunes.length)] + "</h3>").css('display','inline').addClass('animated rubberBand');
+  }
 
   $('#cookie').click(function(){
     $('#fortune').animate({
       marginLeft: "330px",
-      marginTop: "260px",
+      paddingTop: "500px",
       zIndex: 3,
     }, 1500, function(){
-      $('.box').css('transform', 'rotate(-45deg)');
-      $('#text').html("<h3 style='display:none'>" + fortunes[Math.ceil(Math.random() * fortunes.length)] + "</h3>");
-      $('h3').delay(2500).show('slow');
+      $('.box').css('transform', 'rotate(-46deg)');
+      setTimeout(appendText, 2000);
     });
   });
 
