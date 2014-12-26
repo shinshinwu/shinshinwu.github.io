@@ -1,0 +1,241 @@
+/* Reset & Basic style */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+/*==========================================*/
+
+#title,
+#footer {
+  opacity: 1;
+  font-size: 3em;
+  font-family: 'Trocchi', serif;
+  color: #fc3f3f;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 25%;
+  padding-top: 50%;
+}
+
+h2 {
+  font-size: 0.6em;
+  color: #6271fc;
+}
+
+#footer {
+  height: 3%;
+  padding-top: 10%;
+  font-size: 1em;
+  color: #29d8c4;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #c6538c;
+}
+
+.ben {
+  opacity: 0.8;
+  width: 600px;
+  height: 2000px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.divider {
+  background-color: black;
+  border-radius: 15px;
+  width: 25%;
+  height: 0.5%;
+}
+
+#antena,
+#top,
+#clock,
+#one,
+#two,
+#three,
+#six,
+#seven,
+#eight,
+.divider {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+#antena {
+  background-color: black;
+  width: 0.7%;
+  height: 1.5%;
+  border-radius: 25%;
+}
+
+#top {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid black;
+}
+
+#one {
+  width: 10%;
+  height: 1.5%;
+}
+
+#one .aa,
+#one .bb,
+#one .cc,
+#one .dd {
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.aa {
+  background-color: #008597;
+}
+
+.bb {
+  background-color: #FF7C35;
+}
+
+.cc {
+  background-color: #2D3443;
+}
+
+.dd {
+  background-color: #FF005D;
+}
+
+.ee {
+  background-color: #35FF99;
+}
+
+.ff {
+  background-color: #9e9e9e;
+}
+
+.gg {
+  background-color: #FFCC00;
+}
+
+#two {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 60px solid black;
+  height: 0;
+  width: 10%;
+}
+
+#three {
+  width: 20%;
+  height: 1%;
+}
+
+#three .aa,
+#three .bb,
+#three .cc,
+#three .dd,
+#three .ee {
+  display: inline-block;
+  width: 16.5%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+#clock {
+  width: 21%;
+  height: 5%;
+  margin-bottom: 5px;
+}
+
+#four {
+  background-color: #2D3443;
+  width: 10%;
+  height: 100%;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+#five {
+  background-color: #2D3443;
+  width: 10%;
+  height: 100%;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+#six {
+  width: 25%;
+  height: 7.5%;
+}
+
+#six .aa,
+#six .bb,
+#six .cc,
+#six .dd,
+#six .ee,
+#six .ff,
+#six .gg {
+  display: inline-block;
+  width: 12%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+#seven {
+  width: 25%;
+  height: 4%;
+}
+
+#seven .aa,
+#seven .bb,
+#seven .cc,
+#seven .dd,
+#seven .ee,
+#seven .ff,
+#seven .gg {
+  display: inline-block;
+  width: 12%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+#eight {
+  width: 25%;
+  height: 2%;
+}
+
+#eight .aa,
+#eight .bb,
+#eight .cc,
+#eight .dd,
+#eight .ee,
+#eight .ff,
+#eight .gg {
+  display: inline-block;
+  width: 12%;
+  height: 100%;
+  border-radius: 25px;
+}
+
