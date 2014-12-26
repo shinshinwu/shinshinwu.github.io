@@ -1,8 +1,17 @@
 $(document).ready(function() {
 
+  $('.red').data("tile", 1);
+  $('.blue').data("tile", 2);
+  $('.green').data("tile", 3);
+  $('.yellow').data("tile", 4);
+  $('.grey').data("tile", 5);
+
+
+  var sequence = [];
+
   function newRound(){
-    console.log("new roud got executed!");
-    var sequence = [1,2,1];
+    var pick = Math.ceil(Math.random() * 5)
+    sequence.push(pick);
     animate(sequence);
   };
 
@@ -36,6 +45,29 @@ $(document).ready(function() {
     }, 600);
   };
 
-  $('.simon').on('click',newRound);
+// function helper to compare two arrays, because you know, js is stupid
+  function arraysEqual(a, b) {
+    if (a === b) return true;
+    if (a == null || b == null) return false;
+    if (a.length != b.length) return false;
+
+    for (var i = 0; i < a.length; ++i) {
+      if (a[i] !== b[i]) return false;
+    }
+    return true;
+  }
+
+  $('#title').on('click',newRound);
+
+  $('.simon').on('click', function(event){
+    var answer = [];
+    var choice = "." + event.target.className
+    answer.push($(choice).data("tile"));
+    if (arraysEqual(answer, sequence)) {
+      newRound();
+    } else {
+      console.log("No!");
+    };
+  });
 
 });
