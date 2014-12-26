@@ -5,16 +5,52 @@
    <meta charset="utf-8">
    <link rel="stylesheet" type="text/css" href="main.css" />
    <link rel="shortcut icon" href="../../../images/favicon.png" />
+   <link href='http://fonts.googleapis.com/css?family=Trocchi' rel='stylesheet' type='text/css'>
    <title>Assembly Line!</title>
+   <style> [data-sr] { visibility: hidden; } </style>
 
 </head>
 
 <body>
 
 
+  <div class="ben">
+    <div id="title" data-sr='enter top'>Assemble the Big Ben!</div>
+    <div id="antena" data-sr='enter bottom scale down 25% over 1s'></div>
+    <!-- triangle -->
+    <div id="top" data-sr='enter left and hustle over 0.5s'></div>
+    <!-- fat rectangle -->
+    <div id="one" data-sr='wait 0.2s, then enter right and scale up 30% over 1.5s'></div>
+    <!-- trapozoid -->
+    <div id="two" data-sr='enter bottom and hustle over 0.5s'></div>
+    <div id="three" data-sr='enter top and ease-in over 0.5s'></div>
+    <!-- start clock -->
+    <div id="clock">
+      <!-- left side bar -->
+      <div id="four" data-sr='enter left and hustle'></div>
+      <img data-sr='enter top and ease down 20%' src="imgs/clock.png" />
+      <!-- right side bar -->
+      <div id="five" data-sr='enter right and hustle'></div>
+    </div>
+    <!-- fat square -->
+    <div id="six" data-sr='enter bottom and scale down 20% over 1s'></div>
+    <!-- six equal size fat rectagle -->
+    <div id="seven" data-sr='enter left and hustle'></div>
+    <div id="seven" data-sr='enter right and hustle'></div>
+    <div id="seven" data-sr='enter left and hustle'></div>
+    <div id="seven" data-sr='enter right and hustle'></div>
+    <div id="seven" data-sr='enter left and hustle'></div>
+    <div id="seven" data-sr='enter right and hustle'></div>
+    <!-- last bottom piece -->
+    <div id="eight" data-sr='enter bottom and scale up 40% over 1.5s'></div>
+
+  </div>
+
+
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type='text/javascript' src='../../../javascript/jquery-ui.js'></script>
+  <script type='text/javascript' src='scrollReveal.js'></script>
   <script type='text/javascript' src='application.js'></script>
 </body>
 
