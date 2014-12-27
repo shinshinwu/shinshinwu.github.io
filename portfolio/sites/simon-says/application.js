@@ -62,7 +62,13 @@ $(document).ready(function() {
 
 // start game
 
-  $('#start').on('click',newRound);
+  function settingUp(){
+    score = 0;
+    $('#score').text(score);
+    newRound();
+  }
+
+  $('#start').on('click',settingUp);
 
   var clickCounter = 0;
   var score = 0;
@@ -71,6 +77,7 @@ $(document).ready(function() {
     clickCounter += 1;
     var choice = "." + event.target.className
     var guess = $(choice).data("tile");
+    playSound(guess);
     answer.push(guess);
     console.log(guess);
     console.log(answer);
@@ -84,8 +91,11 @@ $(document).ready(function() {
       counter = 0;
       sequence = [];
       answer = [];
-      console.log("You lost!")
+      score = 0;
+      console.log("lost");
+      alert("You lost! Try Again!");
     };
+
 // check if entire answer array matches
     if ( (sequence.length > 0) && (answer.length === sequence.length) ) {
       console.log("I got executed!")
@@ -93,12 +103,15 @@ $(document).ready(function() {
         console.log("I got executed!")
         clickCounter = 0;
         score += 1;
+        $('#score').text(score);
         newRound();
       } else {
           clickCounter = 0;
           sequence = [];
           answer = [];
-          console.log("You lost!");
+          score = 0;
+          console.log("lost");
+          alert("You lost! Try Again!");
       };
     };
 
