@@ -8,9 +8,12 @@ $(document).ready(function() {
 
 
   var sequence = [];
+  var answer = [];
 
   function newRound(){
-    var pick = Math.ceil(Math.random() * 5)
+    console.log("newRound got executed!");
+    answer = [];
+    var pick = Math.ceil(Math.random() * 5);
     sequence.push(pick);
     animate(sequence);
   };
@@ -57,17 +60,48 @@ $(document).ready(function() {
     return true;
   }
 
-  $('#title').on('click',newRound);
+// start game
+
+  $('#start').on('click',newRound);
+
+  var clickCounter = 0;
+  var score = 0;
 
   $('.simon').on('click', function(event){
-    var answer = [];
+    clickCounter += 1;
     var choice = "." + event.target.className
-    answer.push($(choice).data("tile"));
-    if (arraysEqual(answer, sequence)) {
-      newRound();
-    } else {
-      console.log("No!");
+    var guess = $(choice).data("tile");
+    answer.push(guess);
+    console.log(guess);
+    console.log(answer);
+    console.log(sequence);
+    console.log(clickCounter);
+    console.log(answer[(clickCounter-1)]);
+    console.log(sequence[(clickCounter-1)]);
+
+// check if current answer matches
+    if ( (answer[(clickCounter-1)] == sequence[(clickCounter-1)]) === false ) {
+      counter = 0;
+      sequence = [];
+      answer = [];
+      console.log("You lost!")
     };
+// check if entire answer array matches
+    if ( (sequence.length > 0) && (answer.length === sequence.length) ) {
+      console.log("I got executed!")
+      if (arraysEqual(answer, sequence)) {
+        console.log("I got executed!")
+        clickCounter = 0;
+        score += 1;
+        newRound();
+      } else {
+          clickCounter = 0;
+          sequence = [];
+          answer = [];
+          console.log("You lost!");
+      };
+    };
+
   });
 
 });
