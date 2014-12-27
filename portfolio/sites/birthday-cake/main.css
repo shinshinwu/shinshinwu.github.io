@@ -10,7 +10,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, button {
 margin: 0;
 padding: 0;
 border: 0;
@@ -21,89 +21,69 @@ vertical-align: baseline;
 
 /*==========================================*/
 
-#title {
-  display: block;
-  background-color: black;
+
+body {
+  font-family: sans-serif;
+  background: #1A2434;
+  color: white;
 }
 
 h1,
-h2 {
+h2,
+h3,
+#button {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 2em;
-  color: white;
   text-align: center;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
+h1 {
+  padding-top: 40px;
+  font-size: 2.4em;
 }
 
 h2 {
+  color: #FF005D;
+  font-size: 2em;
+}
+
+h3 {
   font-size: 1em;
+  margin-bottom: 1px;
 }
 
-.simon {
-  display: block;
+svg {
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 80%;
+  max-width: 640px;
+}
+
+.path {
+  stroke-dashoffset: 1000;
+  stroke-dasharray: 1000;
+}
+
+.empty-space {
   width: 100%;
-  height: 800px;
-  margin: 0 auto;
-  min-width: 300px;
+  height: 3000px;
 }
 
-.red,
-.blue,
-.green,
-.yellow,
-.grey {
-  width: 19.6%;
-  height: 100%;
+#name {
   display: inline-block;
-  margin: 0 auto;
-  opacity: 0.6;
+}
+
+#button {
   cursor: pointer;
-}
-
-.red:hover,
-.blue:hover,
-.green:hover,
-.yellow:hover,
-.grey:hover {
-  opacity: 1;
-}
-
-.red {
-  background-color: #FF5643;
-}
-
-.blue {
-  background-color: #1E90FF;
-}
-
-.green {
-  background-color: #4ac957;
-}
-
-.yellow {
-  background-color: #FEEF33;
-}
-
-.grey {
-  background-color: #6c6d6d;
-}
-
-.lit {
-  opacity: 1;
-}
-
-#start {
-  cursor: pointer;
-  display: inline-block;
-  margin: 0 auto;
-  margin-left: 47%;
-  width: 50px;
+  display: block;
+  width: 200px;
   height: 20px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 20px;
+  margin: 0 auto;
   text-align: center;
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
@@ -120,7 +100,7 @@ h2 {
   text-decoration: none;
 }
 
-#start:hover {
+#button:hover {
   background: #3cb0fd;
   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
   background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
@@ -130,6 +110,21 @@ h2 {
   text-decoration: none;
 }
 
-#score {
-  display: inline-block;
+#footer {
+  display: block;
+  margin: 0 auto;
+  background-color: #111C2C;
+  border-radius: 25px;
+  width: 200px;
+  height: 20px;
+  padding: 7px 15px 7px 15px;
+}
+
+#footer a,
+#footer a:hover,
+#footer a:visited,
+#footer a:active {
+  color: #1e90ff;
+  font-weight: bold;
+  text-decoration: none;
 }
