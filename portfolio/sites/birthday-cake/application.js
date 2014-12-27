@@ -6,8 +6,8 @@ $(document).ready(function() {
   })
 
   //set the units for the svg paths
-  $(".path").css("stroke-dashoffset", "2300");
-  $(".path").css("stroke-dasharray", "2300");
+  $(".path").css("stroke-dashoffset", "1150");
+  $(".path").css("stroke-dasharray", "1150");
 
   //variable for the 'stroke-dashoffset' unit
   var $dashOffset = $(".path").css("stroke-dashoffset");//.star
