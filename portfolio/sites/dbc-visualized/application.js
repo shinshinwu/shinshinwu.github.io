@@ -165,16 +165,6 @@ var nodes = svg.selectAll("circle")
                .style("fill", function(d, i){
                         return colors(i);
                })
-               .on("mouseover", function(){
-                      d3.select(this)
-                                .attr("fill", "orange");
-               })
-               .on("mouseout", function(d){
-                      d3.select(this)
-                                  .transition()
-                                  .duration(250)
-                                  .attr("fill", "rgb(0, 0, " + (d * 10) + ")");
-               })
                .call(force.drag)
                .on('mouseover', tip.show)
                .on('mouseout', tip.hide)
@@ -191,7 +181,9 @@ nodes.attr("cx", function(d) { return d.x; })
      .attr("cy", function(d) { return d.y; });
 });
 
-// Adding some scripts for double click to show direct neighbor
+// Adding some scripts for double click events to show direct neighbors
+
+
 //Toggle stores whether the highlighting is on
 var toggle = 0;
 //Create an array logging what is connected to what
@@ -199,13 +191,16 @@ var linkedByIndex = {};
 for (i = 0; i < dataset.nodes.length; i++) {
     linkedByIndex[i + "," + i] = 1;
 };
+
 dataset.edges.forEach(function (d) {
     linkedByIndex[d.source.index + "," + d.target.index] = 1;
 });
+
 //This function looks up whether a pair are neighbours
 function neighboring(a, b) {
     return linkedByIndex[a.index + "," + b.index];
 }
+
 function connectedNodes() {
     if (toggle == 0) {
         //Reduce the opacity of all but the neighbouring nodes
