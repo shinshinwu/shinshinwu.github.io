@@ -1,90 +1,216 @@
-var w = 1000;
-var h = 600;
 
-var projection = d3.geo.albersUsa()
-                       .translate([w/2, h/2])
-                       .scale([1000]);
+var map = new Datamap({
+  element: document.getElementById('container'),
+  scope: 'world',
 
-// -------------------------------------
-// ocean
-// var projection = d3.geo.mercator()
-//                    .translate([w/2, h/2])
-//                    .scale([500]);
+  fills: {
+      'CHE': '#458A42',
+      'AUS': '#498741',
+      'USA': '#4E8440',
+      'DNK': '#528140',
+      'DEU': '#577F3F',
+      'IRL': '#5B7C3F',
+      'NZL': '#60793E',
+      'FRA': '#65763E',
+      'GBR': '#69743D',
+      'BEL': '#6E713D',
+      'NLD': '#726E3C',
+      'JPN': '#776C3C',
+      'SWE': '#7C693B',
+      'AUT': '#80663B',
+      'ESP': '#85633A',
+      'ROU': '#89613A',
+      'FIN': '#8E5E39',
+      'UKR': '#935B38',
+      'RUS': '#975938',
+      'PRT': '#9C5637',
+      'ITA': '#A05337',
+      'BRA': '#A55036',
+      'GRC': '#AA4E36',
+      'POL': '#AE4B35',
+      'ZAF': '#B34835',
+      'MEX': '#B74634',
+      'MYS': '#BC4334',
+      'ARG': '#C14033',
+      'KEN': '#C53D33',
+      'EGY': '#CA3B32',
+      'IDN': '#CE3832',
+      'IND': '#D33531',
+      defaultFill: '#969696'
+  },
 
-var path = d3.geo.path()
-                 .projection(projection);
+  data: {
 
-var color = d3.scale.quantize()
-                    .range(["rgb(237,248,233)", "rgb(186,228,179)",
-                     "rgb(116,196,118)", "rgb(49,163,84)","rgb(0,109,44)"]);
+      CHE: {
+          fillKey: 'CHE',
+          salary: "$63,546"
+      },
 
-var svg = d3.select("body")
-            .append("svg")
-            .attr("width", w)
-            .attr("height", h);
+      AUS: {
+          fillKey: 'AUS',
+          salary: "$52,717"
+      },
 
-d3.csv("us-ag-productivity-2004.csv", function(data){
-        color.domain([
-        d3.min(data, function(d) { return d.value; }),
-        d3.max(data, function(d) { return d.value; })
-        ]);
+      USA: {
+        fillKey: 'USA',
+        salary: "$50,900"
+      },
 
-        d3.json("us-states.json", function(json) {
-                for (var i = 0; i < data.length; i++) {
-                      var dataState = data[i].state;
-                      var dataValue = parseFloat(data[i].value);
+      DNK: {
+        fillKey: 'DNK',
+        salary: "$47,775"
+      },
 
-                      for (var j = 0; j < json.features.length; j++) {
-                            var jsonState = json.features[j].properties.name;
-                            if (dataState == jsonState) {
-                              json.features[j].properties.value = dataValue;
-                              break;
-                            }
-                      }
-                }
+      DEU: {
+        fillKey: 'DEU',
+        salary: "$45,108"
+      },
 
-              svg.selectAll("path")
-                 .data(json.features)
-                 .enter()
-                 .append("path")
-                 .attr("d", path)
-                 .style("fill", function(d) {
-                      var value = d.properties.value;
-                      if (value) {
-                        return color(value);
-                      } else {
-                        return "#ccc";
-                      }
-              });
+      IRL: {
+        fillKey: 'IRL',
+        salary: "$44,344"
+      },
 
-              d3.csv("us-cities.csv", function(data){
-                      svg.selectAll("circle")
-                         .data(data)
-                         .enter()
-                         .append("circle")
-                         .attr("cx", function(d) {
-                                return projection([d.lon, d.lat])[0];
-                         })
-                         .attr("cy", function(d) {
-                                return projection([d.lon, d.lat])[1];
-                         })
-                         .attr("r", function(d){
-                                return Math.sqrt(parseInt(d.population) * 0.00004);
-                         })
-                         .style("fill", "yellow")
-                         .style("opacity", 0.75)
-              });
-        });
+      NZL: {
+        fillKey: 'NZL',
+        salary: "$40,260"
+      },
+
+      FRA: {
+        fillKey: 'FRA',
+        salary: "$38,095"
+      },
+
+      GBR: {
+        fillKey: 'GBR',
+        salary: "$36,875"
+      },
+
+      BEL: {
+        fillKey: 'BEL',
+        salary: "$35,170"
+      },
+
+      NLD: {
+        fillKey: 'NLD',
+        salary: "$34,854"
+      },
+
+      JPN: {
+        fillKey: 'JPN',
+        salary: "$33,553"
+      },
+
+      SWE: {
+        fillKey: 'SWE',
+        salary: "$32,229"
+      },
+
+      AUT: {
+        fillKey: 'AUT',
+        salary: "$30,754"
+      },
+
+      ESP: {
+        fillKey: 'ESP',
+        salary: "$30,324"
+      },
+
+      ROU: {
+        fillKey: 'ROU',
+        salary: "$25,728"
+      },
+
+      FIN: {
+        fillKey: 'FIN',
+        salary: "$24,372"
+      },
+
+      UKR: {
+        fillKey: 'UKR',
+        salary: "$24,000"
+      },
+
+      RUS: {
+        fillKey: 'RUS',
+        salary: "$23,724"
+      },
+
+      PRT: {
+        fillKey: 'PRT',
+        salary: "$23,636"
+      },
+
+      ITA: {
+        fillKey: 'ITA',
+        salary: "$21,745"
+      },
+
+      BRA: {
+        fillKey: 'BRA',
+        salary: "$20,660"
+      },
+
+      GRC: {
+        fillKey: 'GRC',
+        salary: "$20,087"
+      },
+
+      POL: {
+        fillKey: 'POL',
+        salary: "$18,597"
+      },
+
+      ZAF: {
+        fillKey: 'ZAF',
+        salary: "$17,527"
+      },
+
+      MEX: {
+        fillKey: 'MEX',
+        salary: "$13,720"
+      },
+
+      MYS: {
+        fillKey: 'MYS',
+        salary: "$12,490"
+      },
+
+      ARG: {
+        fillKey: 'ARG',
+        salary: "$10,917"
+      },
+
+      KEN: {
+        fillKey: 'KEN',
+        salary: "$9,467"
+      },
+
+      EGY: {
+        fillKey: 'EGY',
+        salary: "$6,912"
+      },
+
+      IDN: {
+        fillKey: 'IDN',
+        salary: "$5,347"
+      },
+
+      IND: {
+          fillKey: 'IND',
+          salary: "$4,605"
+      }
+  },
+  geographyConfig: {
+      popupTemplate: function(geo, data) {
+        if ( data == null ) {
+          return '<div class="hoverinfo"><strong>' + geo.properties.name + '<br>' +'Currently no salary information</strong></div>';
+        } else {
+          return '<div class="hoverinfo"><strong>' + geo.properties.name + '<br>' + 'Average Web Developer salary: ' + data.salary + '</strong></div>';
+        };
+    }
+  }
+
 });
 
-
-// ------------------------
-// draw ocean
-// d3.json("oceans.json", function(json){
-//         svg.selectAll("path")
-//            .data(json.features)
-//            .enter()
-//            .append("path")
-//            .attr("d", path)
-//            .style("fill", "steelblue");
-// });
+// city ommited to use bubbles: HK, Singapore, Bahrain
