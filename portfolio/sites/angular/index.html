@@ -1,0 +1,124 @@
+<!-- some book exercise -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Notes App</title>
+</head>
+
+<body ng-app="routingApp">
+
+  <h2>AngularJS Routing App</h2>
+  <ul>
+    <li><a href="#/">Default Route</a></li>
+    <li><a href="#/second">Second Route</a></li>
+    <li><a href="#/blahh">Blah Route</a></li>
+  </ul>
+
+  <div ng-view></div>
+
+  <script type='text/javascript' src="angular.js"></script>
+  <script type='text/javascript' src="angular-route.js"></script>
+
+  <script type='text/javascript'>
+    angular.module('routingApp', ['ngRoute'])
+           .config(['$routeProvider', function($routeProvider){
+
+            $routeProvider.when('/', {
+              template: '<h5>This is the default route</h5>'
+            })
+            .when('/second', {
+              template: '<h5>This is the second route</h5>'
+            })
+            .when('/blahh', {
+              template: '<h5>This is the BLAHHH route</h5>'
+            })
+            .otherwise({redirectTo: '/'});
+           }]);
+    </script>
+  </body>
+  </html>
+
+
+
+
+<!-- <!DOCTYPE html>
+
+<html ng-app='store'>
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+   <link rel="stylesheet" type="text/css" href="main.css" />
+   <link rel="shortcut icon" href="../../../images/favicon.png" />
+   <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+   <title>Angular Storefront</title>
+
+</head>
+
+<body ng-controller="StoreController as store">
+  <header>
+    <h1 class="text-center">Flatlander Crafted Gems</h1>
+    <h2 class="text-center">- an Angular store -</h2>
+  </header>
+  <div class="list-group">
+    <div class="list-group-item" ng-repeat="product in store.products">
+      <h3> {{product.name}} <em class="pull-right">{{product.price | currency }}</em></h3>
+
+      <div ng-controller="GalleryController as gallery" ng-show="product.images.length">
+        <div class="img-wrap">
+          <img ng-src="{{product.images[gallery.current]}}" />
+        </div>
+        <ul class="img-thumbnails clearfix">
+          <li class="small-image pull-left thumbnail" ng-repeat="image in product.images">
+            <img ng-src="{{image}}" />
+          </li>
+        </ul>
+      </div>
+
+    <section ng-controller="PanelController as panel">
+      <ul class="nav nav-pills">
+        <li ng-class="{ active:tab.isSet(1) }">
+          <a href="" ng-click="tab.setTab(1)">Description</a>
+        </li>
+
+        <li ng-class="{ active:tab.isSet(2) }">
+          <a href="" ng-click="tab.setTab(2)">Specs</a>
+        </li>
+
+        <li ng-class="{ active:tab.isSet(3) }">
+          <a href="" ng-click="tab.setTab(3)">Reviews</a>
+        </li>
+      </ul>
+
+      <div ng-show="tab.isSet(1)">
+        <h4>Description</h4>
+        <blockquote>{{product.description}}</blockquote>
+      </div>
+      <div ng-show="tab.isSet(2)">
+        <h4>Specs</h4>
+        <blockquote>Shine: {{product.shine}}</blockquote>
+      </div>
+
+      <div ng-show="tab.isSet(3)">
+        <ul>
+          <h4>Reviews</h4>
+          <li ng-repeat="review in product.reviews">
+            <blockquote>
+              <strong>{{review.stars}} Stars </strong>
+              {{review.body}}
+              <cite class="clearfix">- {{review.author}}</cite>
+            </blockquote>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+  </div>
+  </div>
+
+
+  <script type='text/javascript' src='angular.js'></script>
+  <script type='text/javascript' src='application.js'></script>
+</body>
+
+</html> -->
