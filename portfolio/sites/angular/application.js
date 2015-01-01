@@ -11,16 +11,22 @@
   app.controller("PanelController", function(){
     this.tab = 1;
 
-    this.setTab = function(newValue) {
-      this.tab = newValue;
+    this.setTab = function(tab) {
+      this.tab = tab;
     };
-    this.isSet = function(tabName) {
-      return this.tab === tabName;
+    this.isSet = function(tab) {
+      return (this.tab === tab);
     };
   });
 
-var gems = [
-      {
+  app.controller('GalleryController', function(){
+    this.current = 0;
+    this.setCurrent = function(index){
+      this.current = index;
+    };
+  });
+
+var gems = [{
         name: 'Azurite',
         description: "Some gems have hidden qualities beyond their luster, beyond their shine... Azurite is one of those gems.",
         shine: 8,
@@ -99,7 +105,5 @@ var gems = [
           author: "nat@example.org",
           createdOn: 1397490980837
         }]
-      }
-    ];
-
+      }];
 })();
