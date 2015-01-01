@@ -21,4 +21,66 @@ vertical-align: baseline;
 
 /*==========================================*/
 
-page 190
+body {
+  font-family: 'Roboto', serif;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: 300;
+  color: #ff7c35;
+  margin-bottom: 10px;
+}
+
+h2 a {
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 15px;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: 400;
+  margin: 15px;
+}
+
+blockquote {
+  font-weight: 300;
+  font-size: 0.9em;
+  margin: 15px;
+}
+
+.img-wrap {
+  margin: 40px;
+}
+
+.img-wrap img {
+  border-radius: 50px;
+}
+
+#color {
+  display: inline;
+  color: #c6538c;
+  font-weight: 400;
+}
+
+#star {
+  color: red;
+  font-weight: 400;
+}
+
+cite {
+  color: #415dea;
+}
+
+.reviews ul li {
+  list-style-type: none;
+}

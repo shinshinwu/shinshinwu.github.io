@@ -5,10 +5,10 @@
 
   // defining controller
   app.controller('StoreController', function(){
-    this.products = gems;
+    this.products = toys;
   });
 
-  app.controller("PanelController", function(){
+  app.controller("TabController", function(){
     this.tab = 1;
 
     this.setTab = function(tab) {
@@ -26,83 +26,128 @@
     };
   });
 
-var gems = [{
-        name: 'Azurite',
-        description: "Some gems have hidden qualities beyond their luster, beyond their shine... Azurite is one of those gems.",
-        shine: 8,
-        price: 110.50,
-        rarity: 7,
-        color: '#CCC',
-        faces: 14,
-        images: [
-          "images/gem-02.gif",
-          "images/gem-05.gif",
-          "images/gem-09.gif"
-        ],
+var toys = [{
+        name: 'Unicorn Meat in a Can',
+        description: "Yum and delicious, a true delicacy that is widely popular in the land far far away. Now available in storage-friendly cans so you can savor longer!",
+        rating: 8,
+        price: 99.99,
+        rarity: 9,
+        origin: "Land Far Far Away",
+        images: "imgs/unicorn-meat.jpg",
         reviews: [{
-          stars: 5,
-          body: "I love this gem!",
-          author: "joe@example.org",
+          stars: 10,
+          body: "Love the taste! I now feel younger and more energetic, thanks to unicorn meat!",
+          author: "joe@carnivore.com",
           createdOn: 1397490980837
         }, {
-          stars: 1,
-          body: "This gem sucks.",
-          author: "tim@example.org",
+          stars: 2,
+          body: "Taste like dead unicorn.",
+          author: "sucks@loveunicorn.com",
           createdOn: 1397490980837
         }]
       },
       {
-        name: 'Bloodstone',
-        description: "Origin of the Bloodstone is unknown, hence its low value. It has a very high shine and 12 sides, however.",
-        shine: 9,
-        price: 22.90,
-        rarity: 6,
-        color: '#EEE',
-        faces: 12,
-        images: [
-          "images/gem-01.gif",
-          "images/gem-03.gif",
-          "images/gem-04.gif",
-        ],
+        name: 'Extra Cushion Underwear',
+        description: "Who couldn't use some extra cushions? Now you can recreate your Nicki Minaj, Iggy Azalea and even Beyonce look!",
+        rating: 9,
+        price: 22.99,
+        rarity: 4,
+        origin: "Some factory in China",
+        images: "imgs/butt-underwear.jpg",
         reviews: [{
-          stars: 3,
-          body: "I think this gem was just OK, could honestly use more shine, IMO.",
-          author: "JimmyDean@example.org",
+          stars: 10,
+          body: "I recommend for all occasions! This baby pay for itself!",
+          author: "ilikebigbutt@cannotlie.com",
+          createdOn: 1397490980837
+        }, {
+          stars: 8,
+          body: "The size runs a little large, you don't want a saggy fake butt!",
+          author: "fit@fit.com",
+          createdOn: 1397490980837
+        }]
+      },
+      {
+        name: 'iBrator',
+        description: "Give your Eve the Apple product that she has always wanted.",
+        rating: 9,
+        price: 44.99,
+        rarity: 8,
+        origin: "Garden of Knowledge",
+        images: "imgs/iBrator.jpg",
+        reviews: [{
+          stars: 10,
+          body: "Wow, this is truely amazing. It feels better than the time I bite the apple!",
+          author: "eve@contactgod.com",
           createdOn: 1397490980837
         }, {
           stars: 4,
-          body: "Any gem with 12 faces is for me!",
-          author: "gemsRock@example.org",
+          body: "Meh, over advertized. Battery life sucks and always stops at the important moments.",
+          author: "unsatisfied@toolazy.com",
           createdOn: 1397490980837
         }]
       },
       {
-        name: 'Zircon',
-        description: "Zircon is our most coveted and sought after gem. You will pay much to be the proud owner of this gorgeous and high shine gem.",
-        shine: 70,
-        price: 1100,
-        rarity: 2,
-        color: '#000',
-        faces: 6,
-        images: [
-          "images/gem-06.gif",
-          "images/gem-07.gif",
-          "images/gem-09.gif"
-        ],
+        name: 'Sweater Tunnel',
+        description: "In this winter, stay cozy, fashionable and protect your own privacy at the same time!",
+        rating: 7,
+        price: 33.99,
+        rarity: 7,
+        origin: "genius factory",
+        images: "imgs/sweater-tunnel.jpg",
         reviews: [{
-          stars: 1,
-          body: "This gem is WAY too expensive for its rarity value.",
-          author: "turtleguyy@example.org",
+          stars: 2,
+          body: "This product sucks! Now my boyfriends never talks to me anymore and I think he is watching porn right next to me.",
+          author: "upsetgirl@needy.com",
+          createdOn: 1397490980837
+        }, {
+          stars: 9,
+          body: "Love it! Now I can watch porn right next to my girlfriend. Thanks sweater tunnel!",
+          author: "guy@iloveporn.com",
+          createdOn: 1397490980837
+        }]
+      },
+      {
+        name: 'Sleep Safe Tape',
+        description: "We all have those moments: meeting is so boring, classes materials are just too dry. Now you can safely nap without being noticed!",
+        rating: 8,
+        price: 9.99,
+        rarity: 6,
+        origin: "Sleepy Hollow",
+        images: "imgs/sleep-tape.jpg",
+        reviews: [{
+          stars: 10,
+          body: "Works like a charm, now I can make my attendance and catch up on sleep at the same time!",
+          author: "sleepy@iheartsleep.com",
           createdOn: 1397490980837
         }, {
           stars: 1,
-          body: "BBW: High Shine != High Quality.",
-          author: "LouisW407@example.org",
+          body: "Used in one of my review meeting with my boss. Now I am unemployed.",
+          author: "jobless@job.com",
+          createdOn: 1397490980837
+        }]
+      },
+      {
+        name: 'Evil Banana',
+        description: "He is ALWAYS happy to see you!",
+        rating: 6,
+        price: 11.99,
+        rarity: 2,
+        origin: "Minion Land",
+        images: "imgs/evil-banana.jpg",
+        reviews: [{
+          stars: 3,
+          body: "Fun in the beginning, then it is just creepy to look at...",
+          author: "turtleguy@cia.gov",
           createdOn: 1397490980837
         }, {
-          stars: 1,
-          body: "Don't waste your rubles!",
-          author: "nat@example.org",
+          stars: 9,
+          body: "Best trolling gift ever!",
+          author: "fratbro@university.edu",
+          createdOn: 1397490980837
+        }, {
+          stars: 5,
+          body: "Don't eat it!",
+          author: "hungry@ineedfood.com",
           createdOn: 1397490980837
         }]
       }];
