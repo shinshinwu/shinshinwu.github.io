@@ -31,11 +31,9 @@ body {
 }
 
 .wrap {
-  clear:both;
-  position:relative;
   width:800px;
-  margin-top: 7.5%;
-  margin-left: 20%;
+  margin: 0 auto;
+  margin-top: 5%;
   text-align:center;
 }
 

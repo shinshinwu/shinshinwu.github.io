@@ -42,16 +42,18 @@ video {
 
 .wrapper {
   display: block;
+  margin-bottom: 150px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100;
 }
 
 h1 {
-  color: white;
-  font-size: 3em;
-  text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  font-weight: 100;
-  padding: 20px;
+  font-size: 4em;
+  padding-top: 20px;
+  padding-left: 50px;
 }
 
 #myCanvas {
@@ -63,9 +65,11 @@ h1 {
 }
 
 canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 @media screen and (max-width: 500px) {
