@@ -54,12 +54,13 @@ body {
   font-family: "Century Gothic",Helvetica,Arial,sans-serif;
   letter-spacing:3px;
   text-rendering: optimizeLegibility;
+  text-align: center;
   text-transform:uppercase;
 }
 
 #sailboat {
   float:left;
-  margin:0 auto;
+  margin-left: 3%;
   width:50px;
   height: 100px;
   z-index: 100;
@@ -67,7 +68,6 @@ body {
 }
 
 p {
-  text-align: center;
   font-size: 13px;
   float:left;
   font-family: "Oleo Script", sans-serif;
@@ -75,56 +75,29 @@ p {
 }
 
 .wrap {
-  clear:both;
-  position:relative;
   width:800px;
-  margin-top: 0;
-  margin-left: 20%;
+  margin: 0 auto;
+  margin-top: 5%;
   text-align:center;
 }
 
 #logo {
-  position:relative;
   width:90px;
   height:60px;
   display:block;
-  margin:0 auto 80px;
+  margin:0 auto 3%;
   background:url(../images/titlelogo.png) no-repeat 50% 50%;
-  z-index: 100;
-}
-
-#carousel {
-  position:relative;
-  margin: 20px auto -60px auto;
-  width: 480px;
-  overflow:hidden;
-}
-
-#carousel ul {
-  width: 1920px;
-  padding: 0;
-  margin: 0;
-}
-
-#carousel ul li {
-  width:480px;
-  text-align: center;
-  height: 280px;
-  list-style: none;
-  float:  left;
 }
 
 h1 {
+  margin-top: 2%;
   font-size: 20px;
-  line-height: 20px;
   color:#a3c2ff;
   letter-spacing: 5px;
 }
 
 h2 {
   font-size:15px;
-  line-height:13px;
-  position:relative;
   margin-top:10px;
   letter-spacing:3px;
   color:#FFAAAA;
@@ -132,18 +105,14 @@ h2 {
 
 h3 {
   font-size:13px;
-  line-height:12px;
-  position:relative;
-  margin-top:10px;
+  margin-top:2%;
   letter-spacing:1px;
   color:black;
 }
 
 h4 {
   font-size:11px;
-  line-height:11px;
-  position:relative;
-  margin-top:10px;
+  margin-top: 0.5%;
   letter-spacing:1px;
   color:#666;
 }
@@ -156,19 +125,19 @@ h4 em {
   color:#aaa;
 }
 
-.topbar {
+nav {
   width: 100%;
-  margin: -50px auto 0 auto;
+  margin: 0 auto;
   list-style: none;
   text-align: center;
   display: block;
 }
 
-.topbar ul {
+nav ul {
   display: inline-table;
 }
 
-.topbar ul li {
+nav ul li {
   float: left;
   color: black;
   padding: 5px;
@@ -176,83 +145,55 @@ h4 em {
   display: inline;
 }
 
-.topbar a {
+nav a {
   color: black;
   text-decoration: none;
   text-align: center;
   display: inline-block;
 }
 
-.topbar a:hover {
+nav a:hover,
+nav a:hover,
+nav a:active {
   color: black;
   text-decoration: underline;
 }
 
-
-.topbar a:active,
-.topbar a:focus {
-  color: black;
-  text-decoration: underline;
+#profile {
+  display: block;
+  margin: 0 auto;
+  padding: 2%;
 }
 
-nav.links {
-  position:relative;
-  display:block;
-  margin-top:20px;
+.links {
+  display: block;
+  margin-top:5%;
   text-align:center;
-  font-size:0px;
 }
 
-nav.links a {
-  position:relative;
-  display:inline-block !important;
-  *display:inline !important;*zoom:1;
+.links [data-icon]::before {
+  font-size: 38px;
+}
+
+.links a,
+.links a:visited {
+  padding: 0.5%;
+  text-decoration: none;
+  color: black;
   width:40px;
   height:40px;
-  margin:0 5px;
-  color:white;
+  opacity: 0.8;
 }
 
-.twitter {
-  background:url(../images/twitterlogo.png) no-repeat 0 0;
+.links a:hover,
+.links a:active {
+  opacity: 1;
 }
 
-nav.links a.twitter {
-  background-color:#8ae0fc;
+.links a.twitter {
+  color:#55ACEE;
 }
 
-nav.links a.twitter:hover,
-nav.links a.twitter:focus {
-  background-color: #7bc4dc;
-}
-
-.tumblr {
-  background: url(../images/tumblrlogo.png) no-repeat 0 0;
-}
-
-nav.links a.tumblr {
-  background-color:#eb9dbb;
-}
-
-nav.links a.tumblr:hover,
-nav.links a.tumblr:focus {
-background-color: #c5839c;
-}
-
-.linkedin {
-  background: url(../images/linkedinlogo.png) no-repeat 0 0;
-}
-
-nav.links a.linkedin {
-  background-color:#7891b4;
-}
-
-nav.links a.linkedin:hover,
-nav.links a.linkedin:focus {
-background-color: #687d9b;
-}
-
-#bottom {
-  float:right;
-  position: relative;
+.links a.linkedin {
+  color:#1D87BE;
 }
