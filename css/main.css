@@ -33,6 +33,11 @@ vertical-align: baseline;
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'tetris';
+  src: url('../fonts/tetris.ttf');
+}
+
 [data-icon]::before {
   font-family: 'icomoon';
   content: attr(data-icon);
@@ -231,3 +236,100 @@ nav a:active {
 .site a:hover {
   opacity: 1;
 }
+
+/*for resume page*/
+
+.resume {
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  width: 800px;
+  height: 1035px;
+}
+
+.resume #tetris {
+  width: 60%;
+  height: 85%;
+  border: 2px solid black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.resume h3,
+.resume .sidebar li,
+#tetris li {
+  font-size: 11px;
+}
+
+.resume #status {
+  width: 25%;
+  height: 85%;
+  display: inline-block;
+}
+
+.resume .sidebar {
+  width: 100%;
+  margin-bottom: 10%;
+  border: 2px solid black;
+}
+
+.resume .sidebar ul {
+  list-style: none;
+}
+
+#status {
+  height: 15%;
+}
+
+#tetris {
+  text-align: left;
+  padding: 0.5%;
+}
+
+#tetris hr {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#tetris li {
+  letter-spacing: 1px;
+  text-transform: none;
+  font-weight: 600;
+}
+
+#tetris h1,
+#tetris h2,
+#tetris h3 {
+  margin-top: 0.6%;
+  display: inline;
+}
+
+#tetris h1 {
+  font-size: 15px;
+}
+
+#tetris h2 {
+  font-size: 13px;
+}
+
+#tetris h3 {
+  font-size: 11px;
+}
+
+#tetris .location,
+#tetris .time {
+  display: inline;
+  text-align: right;
+}
+
+#tetris #work {
+  margin-bottom: 10%;
+}
+
+#tetris #pieces {
+  font-family: 'tetris', Helvetica,Arial,sans-serif;
+  font-size: 35px;
+}
+
+
